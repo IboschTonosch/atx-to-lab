@@ -30,3 +30,6 @@ fp-info-cache
 
 # Autosave files
 _autosave-*
+
+# Foot´print folder and content from KiCad
+KiCAD/ATX_PSU_525W_ENERMAX/Libraries/kicad-footprints-master/*
