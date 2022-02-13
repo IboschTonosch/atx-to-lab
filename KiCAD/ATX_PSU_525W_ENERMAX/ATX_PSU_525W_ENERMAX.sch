@@ -52,21 +52,8 @@ F 3 "" H 5200 4150 50  0001 C CNN
 	1    5200 4150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 61E48277
-P 5200 5150
-F 0 "#PWR?" H 5200 5000 50  0001 C CNN
-F 1 "+3.3V" H 5215 5323 50  0000 C CNN
-F 2 "" H 5200 5150 50  0001 C CNN
-F 3 "" H 5200 5150 50  0001 C CNN
-	1    5200 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4950 4150 5200 4150
-Wire Wire Line
-	4950 5150 5200 5150
 $Comp
 L Connector_Generic:Conn_01x01 J?
 U 1 1 6201C36B
@@ -237,57 +224,22 @@ F 3 "" H 10350 4150 50  0001 C CNN
 	1    10350 4150
 	1    0    0    -1  
 $EndComp
-Connection ~ 5950 5150
-Wire Wire Line
-	5950 5150 6350 5150
 Connection ~ 6000 4150
 Wire Wire Line
 	6000 4150 6350 4150
 $Comp
 L Connector_Generic:Conn_01x01 J?
-U 1 1 6201BE30
-P 6550 5150
-F 0 "J?" H 6630 5192 50  0000 L CNN
-F 1 "Conn_01x01" H 6630 5101 50  0000 L CNN
-F 2 "" H 6550 5150 50  0001 C CNN
-F 3 "~" H 6550 5150 50  0001 C CNN
-	1    6550 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J?
 U 1 1 6201B68A
 P 6550 4150
 F 0 "J?" H 6630 4192 50  0000 L CNN
-F 1 "Conn_01x01" H 6630 4101 50  0000 L CNN
+F 1 "+5V Conn" H 6630 4101 50  0000 L CNN
 F 2 "" H 6550 4150 50  0001 C CNN
 F 3 "~" H 6550 4150 50  0001 C CNN
 	1    6550 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 5150 5800 5150
-Wire Wire Line
-	5500 5150 5200 5150
-Wire Wire Line
 	5800 4150 6000 4150
-$Comp
-L Device:Fuse F?
-U 1 1 61E482DD
-P 5650 5150
-AR Path="/61E482DD" Ref="F?"  Part="1" 
-AR Path="/5E13FF9B/61E482DD" Ref="F?"  Part="1" 
-AR Path="/5E06D8A7/61E482DD" Ref="F?"  Part="1" 
-F 0 "F?" V 5750 5250 50  0000 R CNN
-F 1 "10A" V 5550 5250 50  0000 R CNN
-F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 5580 5150 50  0001 C CNN
-F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf / https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OG__Holder__6.3x32.pdf" H 5650 5150 50  0001 C CNN
-F 4 "486-3322-ND / 486-3643-ND" H 5650 5150 50  0001 C CNN "DigiKey_Nr"
-F 5 "Schurter Inc" H 5650 5150 50  0001 C CNN "OEM"
-F 6 "8020.5078 / 0031.8002 " V 5700 5150 31  0001 C CNN "OEM_Nr"
-	1    5650 5150
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:Fuse F?
 U 1 1 61E482D4
@@ -309,17 +261,6 @@ Wire Wire Line
 	5200 4150 5500 4150
 $Comp
 L power:GNDREF #PWR?
-U 1 1 61E4829B
-P 5950 5450
-F 0 "#PWR?" H 5950 5200 50  0001 C CNN
-F 1 "GNDREF" H 5955 5277 50  0000 C CNN
-F 2 "" H 5950 5450 50  0001 C CNN
-F 3 "" H 5950 5450 50  0001 C CNN
-	1    5950 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR?
 U 1 1 61E48295
 P 6000 4450
 F 0 "#PWR?" H 6000 4200 50  0001 C CNN
@@ -328,17 +269,6 @@ F 2 "" H 6000 4450 50  0001 C CNN
 F 3 "" H 6000 4450 50  0001 C CNN
 	1    6000 4450
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener_ALT DZ?
-U 1 1 61E48289
-P 5950 5300
-F 0 "DZ?" V 5904 5379 50  0000 L CNN
-F 1 "D_Zener_ALT" V 5995 5379 50  0000 L CNN
-F 2 "" H 5950 5300 50  0001 C CNN
-F 3 "~" H 5950 5300 50  0001 C CNN
-	1    5950 5300
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Zener_ALT DZ?
@@ -352,7 +282,6 @@ F 3 "~" H 6000 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 5200 4150
-Connection ~ 5200 5150
 $Comp
 L power:GNDREF #PWR?
 U 1 1 6203C1AF
@@ -480,17 +409,6 @@ F 6 "8020.5078 / 0031.8002 " V 5700 1050 31  0001 C CNN "OEM_Nr"
 $EndComp
 Wire Wire Line
 	5200 1050 5500 1050
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 61FFEBDF
-P 6550 1050
-F 0 "J?" H 6630 1092 50  0000 L CNN
-F 1 "Conn_01x01" H 6630 1001 50  0000 L CNN
-F 2 "" H 6550 1050 50  0001 C CNN
-F 3 "~" H 6550 1050 50  0001 C CNN
-	1    6550 1050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 61FD0FAE
@@ -920,7 +838,7 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 6270447A
 P 6550 2100
 F 0 "J?" H 6630 2142 50  0000 L CNN
-F 1 "Conn_01x01" H 6630 2051 50  0000 L CNN
+F 1 "+12V Conn" H 6630 2051 50  0000 L CNN
 F 2 "" H 6550 2100 50  0001 C CNN
 F 3 "~" H 6550 2100 50  0001 C CNN
 	1    6550 2100
@@ -1100,7 +1018,7 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 62714691
 P 6550 3100
 F 0 "J?" H 6630 3142 50  0000 L CNN
-F 1 "Conn_01x01" H 6630 3051 50  0000 L CNN
+F 1 "+12V Conn" H 6630 3051 50  0000 L CNN
 F 2 "" H 6550 3100 50  0001 C CNN
 F 3 "~" H 6550 3100 50  0001 C CNN
 	1    6550 3100
@@ -1231,8 +1149,6 @@ Text GLabel 950  3900 0    50   Input ~ 0
 GND
 Text GLabel 1650 3250 2    50   Input ~ 0
 +12V2
-Text GLabel 4950 5150 0    50   Input ~ 0
-+3.3V
 Text GLabel 2600 2850 0    50   Input ~ 0
 GND
 Text GLabel 3300 2850 2    50   Input ~ 0
@@ -1453,14 +1369,14 @@ Text GLabel 950  4350 0    50   Input ~ 0
 GND
 Text GLabel 1650 4350 2    50   Input ~ 0
 +12V3
-Text Notes 9300 650  0    50   ~ 0
-Negative Side
+Text Notes 9200 750  0    50   ~ 0
+Return Current\nCurrent Regulation
 Wire Notes Line
 	7750 5950 7750 550 
 Wire Notes Line
 	550  550  11100 550 
-Text Notes 5600 650  0    50   ~ 0
-Positive Side
+Text Notes 5450 750  0    50   ~ 0
+Income Current\nCircuit Protection
 Wire Notes Line
 	550  3450 3950 3450
 Wire Notes Line
@@ -1483,4 +1399,88 @@ Wire Notes Line
 	550  550  550  6900
 Wire Notes Line
 	550  6050 11100 6050
+Text GLabel 4950 5150 0    50   Input ~ 0
++3.3V
+Connection ~ 5200 5150
+$Comp
+L Device:D_Zener_ALT DZ?
+U 1 1 61E48289
+P 5950 5300
+F 0 "DZ?" V 5904 5379 50  0000 L CNN
+F 1 "D_Zener_ALT" V 5995 5379 50  0000 L CNN
+F 2 "" H 5950 5300 50  0001 C CNN
+F 3 "~" H 5950 5300 50  0001 C CNN
+	1    5950 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 61E4829B
+P 5950 5450
+F 0 "#PWR?" H 5950 5200 50  0001 C CNN
+F 1 "GNDREF" H 5955 5277 50  0000 C CNN
+F 2 "" H 5950 5450 50  0001 C CNN
+F 3 "" H 5950 5450 50  0001 C CNN
+	1    5950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 61E482DD
+P 5650 5150
+AR Path="/61E482DD" Ref="F?"  Part="1" 
+AR Path="/5E13FF9B/61E482DD" Ref="F?"  Part="1" 
+AR Path="/5E06D8A7/61E482DD" Ref="F?"  Part="1" 
+F 0 "F?" V 5750 5250 50  0000 R CNN
+F 1 "10A" V 5550 5250 50  0000 R CNN
+F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 5580 5150 50  0001 C CNN
+F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf / https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OG__Holder__6.3x32.pdf" H 5650 5150 50  0001 C CNN
+F 4 "486-3322-ND / 486-3643-ND" H 5650 5150 50  0001 C CNN "DigiKey_Nr"
+F 5 "Schurter Inc" H 5650 5150 50  0001 C CNN "OEM"
+F 6 "8020.5078 / 0031.8002 " V 5700 5150 31  0001 C CNN "OEM_Nr"
+	1    5650 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 5150 5200 5150
+Wire Wire Line
+	5950 5150 5800 5150
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 6201BE30
+P 6550 5150
+F 0 "J?" H 6630 5192 50  0000 L CNN
+F 1 "+3.3V Conn" H 6630 5101 50  0000 L CNN
+F 2 "" H 6550 5150 50  0001 C CNN
+F 3 "~" H 6550 5150 50  0001 C CNN
+	1    6550 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5150 6350 5150
+Connection ~ 5950 5150
+Wire Wire Line
+	4950 5150 5200 5150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61E48277
+P 5200 5150
+F 0 "#PWR?" H 5200 5000 50  0001 C CNN
+F 1 "+3.3V" H 5215 5323 50  0000 C CNN
+F 2 "" H 5200 5150 50  0001 C CNN
+F 3 "" H 5200 5150 50  0001 C CNN
+	1    5200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 61FFEBDF
+P 6550 1050
+F 0 "J?" H 6630 1092 50  0000 L CNN
+F 1 "+12V Conn" H 6630 1001 50  0000 L CNN
+F 2 "" H 6550 1050 50  0001 C CNN
+F 3 "~" H 6550 1050 50  0001 C CNN
+	1    6550 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
