@@ -845,17 +845,6 @@ F 3 "~" H 6550 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 62704480
-P 5200 2250
-F 0 "R?" H 5270 2296 50  0000 L CNN
-F 1 "R" H 5270 2205 50  0000 L CNN
-F 2 "" V 5130 2250 50  0001 C CNN
-F 3 "~" H 5200 2250 50  0001 C CNN
-	1    5200 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12V #PWR?
 U 1 1 62704486
 P 5200 2100
@@ -869,17 +858,6 @@ $EndComp
 Wire Wire Line
 	4950 2100 5200 2100
 Connection ~ 5200 2100
-$Comp
-L power:GNDREF #PWR?
-U 1 1 6270448E
-P 5200 2400
-F 0 "#PWR?" H 5200 2150 50  0001 C CNN
-F 1 "GNDREF" H 5205 2227 50  0000 C CNN
-F 2 "" H 5200 2400 50  0001 C CNN
-F 3 "" H 5200 2400 50  0001 C CNN
-	1    5200 2400
-	1    0    0    -1  
-$EndComp
 Text GLabel 4950 2100 0    50   Input ~ 0
 +12V2
 $Comp
@@ -1025,17 +1003,6 @@ F 3 "~" H 6550 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 62714697
-P 5200 3250
-F 0 "R?" H 5270 3296 50  0000 L CNN
-F 1 "R" H 5270 3205 50  0000 L CNN
-F 2 "" V 5130 3250 50  0001 C CNN
-F 3 "~" H 5200 3250 50  0001 C CNN
-	1    5200 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12V #PWR?
 U 1 1 6271469D
 P 5200 3100
@@ -1049,17 +1016,6 @@ $EndComp
 Wire Wire Line
 	4950 3100 5200 3100
 Connection ~ 5200 3100
-$Comp
-L power:GNDREF #PWR?
-U 1 1 627146A5
-P 5200 3400
-F 0 "#PWR?" H 5200 3150 50  0001 C CNN
-F 1 "GNDREF" H 5205 3227 50  0000 C CNN
-F 2 "" H 5200 3400 50  0001 C CNN
-F 3 "" H 5200 3400 50  0001 C CNN
-	1    5200 3400
-	1    0    0    -1  
-$EndComp
 Text GLabel 4950 3100 0    50   Input ~ 0
 +12V3
 Wire Wire Line
