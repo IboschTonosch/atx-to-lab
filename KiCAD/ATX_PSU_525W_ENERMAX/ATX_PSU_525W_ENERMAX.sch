@@ -14,519 +14,409 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	1350 900  1200 900 
+Wire Wire Line
 	1350 1000 1200 1000
 Wire Wire Line
 	1350 1100 1200 1100
 Wire Wire Line
-	1350 1200 1200 1200
+	1350 1900 1200 1900
 Wire Wire Line
-	1350 2000 1200 2000
+	1850 1900 2000 1900
 Wire Wire Line
-	1850 2000 2000 2000
+	1850 1000 2000 1000
 Wire Wire Line
-	1850 1100 2000 1100
-Wire Wire Line
-	1850 900  2000 900 
-Wire Wire Line
-	1850 1700 2000 1700
-Wire Wire Line
-	1850 1500 2000 1500
+	1850 800  2000 800 
 Wire Wire Line
 	1850 1600 2000 1600
 Wire Wire Line
-	1850 1800 2000 1800
+	1850 1400 2000 1400
 Wire Wire Line
-	1350 1900 1200 1900
+	1850 1500 2000 1500
 Wire Wire Line
-	1200 1700 1350 1700
+	1850 1700 2000 1700
 Wire Wire Line
-	2000 1200 1850 1200
+	1350 1800 1200 1800
+Wire Wire Line
+	1200 1600 1350 1600
+Wire Wire Line
+	2000 1100 1850 1100
 $Comp
 L Connector_Generic:Conn_02x04_Top_Bottom J10
 U 1 1 62088F4B
-P 2950 1700
+P 2950 1600
 AR Path="/62088F4B" Ref="J10"  Part="1" 
 AR Path="/5E13FF9B/62088F4B" Ref="J?"  Part="1" 
-F 0 "J10" H 3000 1300 50  0000 C CNN
-F 1 "EPS12V 8 Pin" H 3000 1400 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 2950 1700 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2950 1700 50  0001 C CNN
-F 4 "WM3811-ND " H 3050 1950 50  0001 C CNN "Digi-Key"
-	1    2950 1700
+F 0 "J10" H 3000 1200 50  0000 C CNN
+F 1 "EPS12V 8 Pin" H 3000 1300 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 2950 1600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2950 1600 50  0001 C CNN
+F 4 "WM3811-ND " H 3050 1850 50  0001 C CNN "Digi-Key"
+	1    2950 1600
 	1    0    0    1   
 $EndComp
-Text GLabel 1200 1000 0    50   Input ~ 0
-+12V1
 Text GLabel 1200 900  0    50   Input ~ 0
++12V1
+Text GLabel 1200 800  0    50   Input ~ 0
 +3.3V
-Text GLabel 2000 1100 2    50   Input ~ 0
+Text GLabel 2000 1000 2    50   Input ~ 0
 +5V
 Wire Wire Line
-	1850 1000 2000 1000
-Text GLabel 1200 1800 0    50   Input ~ 0
+	1850 900  2000 900 
+Text GLabel 1200 1700 0    50   Input ~ 0
 GND
-Text GLabel 2000 1300 2    50   Input ~ 0
--5V
-Text GLabel 1200 2000 0    50   Input ~ 0
-+3.3V
 Text GLabel 1200 1900 0    50   Input ~ 0
 +3.3V
-Text GLabel 2000 2000 2    50   Input ~ 0
+Text GLabel 1200 1800 0    50   Input ~ 0
 +3.3V
-Text GLabel 1200 1600 0    50   Input ~ 0
+Text GLabel 2000 1900 2    50   Input ~ 0
++3.3V
+Text GLabel 1200 1500 0    50   Input ~ 0
 GND
-Text GLabel 2000 1500 2    50   Input ~ 0
+Text GLabel 2000 1400 2    50   Input ~ 0
 GND
-Text GLabel 2000 900  2    50   Input ~ 0
+Text GLabel 2000 800  2    50   Input ~ 0
 GND
 Wire Wire Line
-	1350 900  1200 900 
+	1350 800  1200 800 
+Wire Wire Line
+	1350 1300 1200 1300
 Wire Wire Line
 	1350 1400 1200 1400
 Wire Wire Line
 	1350 1500 1200 1500
-Wire Wire Line
-	1350 1600 1200 1600
-Text GLabel 2000 1000 2    50   Input ~ 0
+Text GLabel 2000 900  2    50   Input ~ 0
 +5V
-Text GLabel 2000 1200 2    50   Input ~ 0
+Text GLabel 2000 1100 2    50   Input ~ 0
 +5V
 Wire Wire Line
-	1350 1800 1200 1800
-Text GLabel 1200 1100 0    50   Input ~ 0
+	1350 1700 1200 1700
+Text GLabel 1200 1000 0    50   Input ~ 0
 +12V1
-Text GLabel 2000 1800 2    50   Input ~ 0
+Text GLabel 2000 1700 2    50   Input ~ 0
 GND
-Text GLabel 1200 1700 0    50   Input ~ 0
+Text GLabel 1200 1600 0    50   Input ~ 0
 +5V
-Text GLabel 2000 1600 2    50   Input ~ 0
+Text GLabel 2000 1500 2    50   Input ~ 0
 GND
-Text GLabel 1200 1500 0    50   Input ~ 0
+Text GLabel 1200 1400 0    50   Input ~ 0
 +5V
-Text GLabel 2000 1400 2    50   Input ~ 0
+Text GLabel 2000 1300 2    50   Input ~ 0
 GND
-Text GLabel 1200 1200 0    50   Input ~ 0
+Text GLabel 1200 1100 0    50   Input ~ 0
 +5VSB
-Text GLabel 1200 1300 0    50   Input ~ 0
-PWR_OK
-Text Notes 1450 650  0    50   ~ 0
+Text Notes 900  650  0    50   ~ 0
 Primary +12V1 Power Rail Input Terminal
-Text Notes 950  2350 0    50   ~ 0
-Secondary +12V2 Power Rail Input Terminal
-Text Notes 950  5350 0    50   ~ 0
+Text Notes 950  5500 0    50   ~ 0
 Secondary +12V2/+12V3 Power Rail Input Terminal
-Text GLabel 1550 4100 2    50   Input ~ 0
+Text GLabel 1550 4400 2    50   Input ~ 0
 +12V3
 $Comp
 L Connector:Screw_Terminal_01x06 J38
 U 1 1 624A2BA8
-P 1200 5650
-F 0 "J38" V 1400 5650 50  0000 R CNN
-F 1 "Screw_Terminal_01x06" V 1300 6000 50  0000 R CNN
-F 2 "" H 1200 5650 50  0001 C CNN
-F 3 "~" H 1200 5650 50  0001 C CNN
-	1    1200 5650
+P 1200 5800
+F 0 "J38" V 1400 5800 50  0000 R CNN
+F 1 "Screw_Terminal_01x06" V 1300 6150 50  0000 R CNN
+F 2 "" H 1200 5800 50  0001 C CNN
+F 3 "~" H 1200 5800 50  0001 C CNN
+	1    1200 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x06 J39
 U 1 1 624A59DF
-P 2250 5650
-F 0 "J39" V 2450 5650 50  0000 R CNN
-F 1 "Screw_Terminal_01x06" V 2350 6000 50  0000 R CNN
-F 2 "" H 2250 5650 50  0001 C CNN
-F 3 "~" H 2250 5650 50  0001 C CNN
-	1    2250 5650
+P 2250 5800
+F 0 "J39" V 2450 5800 50  0000 R CNN
+F 1 "Screw_Terminal_01x06" V 2350 6150 50  0000 R CNN
+F 2 "" H 2250 5800 50  0001 C CNN
+F 3 "~" H 2250 5800 50  0001 C CNN
+	1    2250 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x06 J42
 U 1 1 624A6273
-P 1200 6400
-F 0 "J42" V 1400 6400 50  0000 R CNN
-F 1 "Screw_Terminal_01x06" V 1300 6750 50  0000 R CNN
-F 2 "" H 1200 6400 50  0001 C CNN
-F 3 "~" H 1200 6400 50  0001 C CNN
-	1    1200 6400
+P 1200 6550
+F 0 "J42" V 1400 6550 50  0000 R CNN
+F 1 "Screw_Terminal_01x06" V 1300 6900 50  0000 R CNN
+F 2 "" H 1200 6550 50  0001 C CNN
+F 3 "~" H 1200 6550 50  0001 C CNN
+	1    1200 6550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1000 5850 1100 5850
-Connection ~ 1100 5850
+	1000 6000 1100 6000
+Connection ~ 1100 6000
 Wire Wire Line
-	1100 5850 1200 5850
-Connection ~ 1200 5850
-Connection ~ 1300 5850
+	1100 6000 1200 6000
+Connection ~ 1200 6000
+Connection ~ 1300 6000
 Wire Wire Line
-	1300 5850 1400 5850
-Connection ~ 1400 5850
+	1300 6000 1400 6000
+Connection ~ 1400 6000
 Wire Wire Line
-	1400 5850 1500 5850
+	1400 6000 1500 6000
 Wire Wire Line
-	2050 5850 2150 5850
-Connection ~ 2150 5850
+	2050 6000 2150 6000
+Connection ~ 2150 6000
 Wire Wire Line
-	2150 5850 2250 5850
-Connection ~ 2250 5850
+	2150 6000 2250 6000
+Connection ~ 2250 6000
 Wire Wire Line
-	2250 5850 2350 5850
-Connection ~ 2350 5850
+	2250 6000 2350 6000
+Connection ~ 2350 6000
 Wire Wire Line
-	2350 5850 2450 5850
-Connection ~ 2450 5850
+	2350 6000 2450 6000
+Connection ~ 2450 6000
 Wire Wire Line
-	2450 5850 2550 5850
+	2450 6000 2550 6000
 Wire Wire Line
-	1000 6600 1100 6600
-Connection ~ 1100 6600
+	1000 6750 1100 6750
+Connection ~ 1100 6750
 Wire Wire Line
-	1100 6600 1200 6600
-Connection ~ 1200 6600
+	1100 6750 1200 6750
+Connection ~ 1200 6750
 Wire Wire Line
-	1200 6600 1300 6600
-Connection ~ 1300 6600
+	1200 6750 1300 6750
+Connection ~ 1300 6750
 Wire Wire Line
-	1300 6600 1400 6600
-Connection ~ 1400 6600
+	1300 6750 1400 6750
+Connection ~ 1400 6750
 Wire Wire Line
-	1400 6600 1500 6600
-Text GLabel 1600 5850 2    50   Input ~ 0
+	1400 6750 1500 6750
+Text GLabel 1600 6000 2    50   Input ~ 0
 +12V2
-Text GLabel 2650 5850 2    50   Input ~ 0
+Text GLabel 2650 6000 2    50   Input ~ 0
 +12V3
-Text GLabel 1600 6600 2    50   Input ~ 0
+Text GLabel 1600 6750 2    50   Input ~ 0
 +5V
 $Comp
 L Connector:Screw_Terminal_01x06 J43
 U 1 1 624F0C19
-P 2250 6400
-F 0 "J43" V 2450 6400 50  0000 R CNN
-F 1 "Screw_Terminal_01x06" V 2350 6750 50  0000 R CNN
-F 2 "" H 2250 6400 50  0001 C CNN
-F 3 "~" H 2250 6400 50  0001 C CNN
-	1    2250 6400
+P 2250 6550
+F 0 "J43" V 2450 6550 50  0000 R CNN
+F 1 "Screw_Terminal_01x06" V 2350 6900 50  0000 R CNN
+F 2 "" H 2250 6550 50  0001 C CNN
+F 3 "~" H 2250 6550 50  0001 C CNN
+	1    2250 6550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2150 6600 2250 6600
-Connection ~ 2250 6600
+	2150 6750 2250 6750
+Connection ~ 2250 6750
 Wire Wire Line
-	2250 6600 2350 6600
-Connection ~ 2350 6600
+	2250 6750 2350 6750
+Connection ~ 2350 6750
 Wire Wire Line
-	2350 6600 2450 6600
-Connection ~ 2450 6600
+	2350 6750 2450 6750
+Connection ~ 2450 6750
 Wire Wire Line
-	2450 6600 2550 6600
-Text GLabel 2650 6600 2    50   Input ~ 0
+	2450 6750 2550 6750
+Text GLabel 2650 6750 2    50   Input ~ 0
 +3.3V
 $Comp
 L Connector:Screw_Terminal_01x12 J44
 U 1 1 624F5E06
-P 1750 7200
-F 0 "J44" V 1967 7146 50  0000 C CNN
-F 1 "Screw_Terminal_01x12" V 1876 7146 50  0000 C CNN
-F 2 "" H 1750 7200 50  0001 C CNN
-F 3 "~" H 1750 7200 50  0001 C CNN
-	1    1750 7200
+P 1750 7300
+F 0 "J44" V 1967 7246 50  0000 C CNN
+F 1 "Screw_Terminal_01x12" V 1876 7246 50  0000 C CNN
+F 2 "" H 1750 7300 50  0001 C CNN
+F 3 "~" H 1750 7300 50  0001 C CNN
+	1    1750 7300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2350 7400 2250 7400
-Connection ~ 1350 7400
+	2350 7500 2250 7500
+Connection ~ 1350 7500
 Wire Wire Line
-	1350 7400 1250 7400
-Connection ~ 1450 7400
+	1350 7500 1250 7500
+Connection ~ 1450 7500
 Wire Wire Line
-	1450 7400 1350 7400
-Connection ~ 1550 7400
+	1450 7500 1350 7500
+Connection ~ 1550 7500
 Wire Wire Line
-	1550 7400 1450 7400
-Connection ~ 1650 7400
+	1550 7500 1450 7500
+Connection ~ 1650 7500
 Wire Wire Line
-	1650 7400 1550 7400
-Connection ~ 1750 7400
+	1650 7500 1550 7500
+Connection ~ 1750 7500
 Wire Wire Line
-	1750 7400 1650 7400
-Connection ~ 1850 7400
+	1750 7500 1650 7500
+Connection ~ 1850 7500
 Wire Wire Line
-	1850 7400 1750 7400
-Connection ~ 1950 7400
+	1850 7500 1750 7500
+Connection ~ 1950 7500
 Wire Wire Line
-	1950 7400 1850 7400
-Connection ~ 2050 7400
+	1950 7500 1850 7500
+Connection ~ 2050 7500
 Wire Wire Line
-	2050 7400 1950 7400
-Connection ~ 2150 7400
+	2050 7500 1950 7500
+Connection ~ 2150 7500
 Wire Wire Line
-	2150 7400 2050 7400
-Connection ~ 2250 7400
+	2150 7500 2050 7500
+Connection ~ 2250 7500
 Wire Wire Line
-	2250 7400 2150 7400
-Text Notes 1050 6100 0    50   ~ 0
+	2250 7500 2150 7500
+Text Notes 1050 6250 0    50   ~ 0
 Secondary +5V Power Input Terminal
-Text Notes 800  6900 0    50   ~ 0
+Text Notes 800  7000 0    50   ~ 0
 Secondary +12V2/+12V3 Power Rail Input Terminal
-Text GLabel 1550 2650 2    50   Input ~ 0
-+12V2
 Wire Wire Line
-	1200 5850 1300 5850
+	1200 6000 1300 6000
+Connection ~ 1500 6000
 Wire Wire Line
-	1600 5850 1500 5850
-Connection ~ 1500 5850
+	2650 6000 2550 6000
+Connection ~ 2550 6000
 Wire Wire Line
-	2650 5850 2550 5850
-Connection ~ 2550 5850
+	2650 6750 2550 6750
+Connection ~ 2550 6750
 Wire Wire Line
-	2650 6600 2550 6600
-Connection ~ 2550 6600
+	1600 6750 1500 6750
+Connection ~ 1500 6750
 Wire Wire Line
-	1600 6600 1500 6600
-Connection ~ 1500 6600
-Wire Wire Line
-	2150 6600 2050 6600
-Connection ~ 2150 6600
+	2150 6750 2050 6750
+Connection ~ 2150 6750
 $Comp
 L Connector_Generic:Conn_02x02_Top_Bottom J4
 U 1 1 620C0620
-P 2950 1050
-F 0 "J4" H 3000 725 50  0000 C CNN
-F 1 "EPS12V 4Pin" H 3000 816 50  0000 C CNN
-F 2 "" H 2950 1050 50  0001 C CNN
-F 3 "~" H 2950 1050 50  0001 C CNN
-	1    2950 1050
+P 2950 950
+F 0 "J4" H 3000 625 50  0000 C CNN
+F 1 "EPS12V 4Pin" H 3000 716 50  0000 C CNN
+F 2 "" H 2950 950 50  0001 C CNN
+F 3 "~" H 2950 950 50  0001 C CNN
+	1    2950 950 
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3250 950  3250 1050
+	3250 850  3250 950 
 Wire Wire Line
-	2750 1800 2750 1700
+	2750 1700 2750 1600
+Connection ~ 2750 1500
+Wire Wire Line
+	2750 1500 2750 1400
 Connection ~ 2750 1600
 Wire Wire Line
 	2750 1600 2750 1500
-Connection ~ 2750 1700
 Wire Wire Line
-	2750 1700 2750 1600
+	3250 1400 3250 1500
+Connection ~ 3250 1500
 Wire Wire Line
 	3250 1500 3250 1600
 Connection ~ 3250 1600
 Wire Wire Line
 	3250 1600 3250 1700
-Connection ~ 3250 1700
 Wire Wire Line
-	3250 1700 3250 1800
+	3250 1400 3350 1400
+Connection ~ 3250 1400
 Wire Wire Line
-	3250 1500 3350 1500
-Connection ~ 3250 1500
+	2750 850  2750 950 
 Wire Wire Line
-	2750 950  2750 1050
-Wire Wire Line
-	3250 950  3350 950 
-Connection ~ 3250 950 
+	3250 850  3350 850 
+Connection ~ 3250 850 
 $Comp
 L Connector_Generic:Conn_02x12_Top_Bottom J9
 U 1 1 61E2704A
-P 1550 1500
+P 1550 1400
 AR Path="/61E2704A" Ref="J9"  Part="1" 
 AR Path="/5E056A1F/61E2704A" Ref="J?"  Part="1" 
-F 0 "J9" H 1600 2150 50  0000 C TNN
-F 1 "Main ATX 24Pin" V 1550 1450 50  0000 C TNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-24A_2x12_P4.20mm_Vertical" V 1600 2125 50  0001 C CNN
-F 3 "~" H 1550 1500 50  0001 C CNN
-	1    1550 1500
+F 0 "J9" H 1600 2050 50  0000 C TNN
+F 1 "Main ATX 24Pin" V 1550 1350 50  0000 C TNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-24A_2x12_P4.20mm_Vertical" V 1600 2025 50  0001 C CNN
+F 3 "~" H 1550 1400 50  0001 C CNN
+	1    1550 1400
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	1850 1400 2000 1400
-Wire Wire Line
-	1850 1900 2000 1900
-Wire Wire Line
-	2000 1300 1850 1300
-NoConn ~ 1850 1900
-NoConn ~ 2000 1900
-NoConn ~ 1850 1300
-NoConn ~ 2000 1300
-Wire Wire Line
-	1350 1300 1200 1300
-Text GLabel 1200 1400 0    50   Input ~ 0
+	1850 1300 2000 1300
+NoConn ~ 1850 1800
+NoConn ~ 1850 1200
+Text GLabel 1200 1300 0    50   Input ~ 0
 GND
-Text GLabel 2000 1900 2    50   Input ~ 0
--12V
-Text GLabel 2000 1700 2    50   Input ~ 0
+Text GLabel 2000 1600 2    50   Input ~ 0
 PS_ON
-Text GLabel 1550 3200 2    50   Input ~ 0
-+12V2
-Text GLabel 2750 2750 2    50   Input ~ 0
-+12V2
-$Comp
-L Connector_Generic:Conn_02x06_Counter_Clockwise J13
-U 1 1 6241F25C
-P 2350 2950
-AR Path="/6241F25C" Ref="J13"  Part="1" 
-AR Path="/5E13FF9B/6241F25C" Ref="J?"  Part="1" 
-F 0 "J13" H 2400 2450 50  0000 C CNN
-F 1 "Molex: 0039281243" V 2400 2900 39  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 2350 2950 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2350 2950 50  0001 C CNN
-F 4 "WM3811-ND " H 2450 2550 50  0000 C CNN "Digi-Key"
-	1    2350 2950
-	1    0    0    1   
-$EndComp
-Text GLabel 2700 4200 2    50   Input ~ 0
+Text GLabel 2700 4500 2    50   Input ~ 0
 +12V3
 $Comp
 L Connector_Generic:Conn_02x06_Counter_Clockwise J26
 U 1 1 623260A0
-P 2300 4400
+P 2300 4700
 AR Path="/623260A0" Ref="J26"  Part="1" 
 AR Path="/5E13FF9B/623260A0" Ref="J?"  Part="1" 
-F 0 "J26" H 2350 3900 50  0000 C CNN
-F 1 "Molex: 0039281243" V 2350 4350 39  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 2300 4400 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2300 4400 50  0001 C CNN
-F 4 "WM3811-ND " H 2400 4000 50  0000 C CNN "Digi-Key"
-	1    2300 4400
+F 0 "J26" H 2350 4200 50  0000 C CNN
+F 1 "Molex: 0039281243" V 2350 4650 39  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 2300 4700 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2300 4700 50  0001 C CNN
+F 4 "WM3811-ND " H 2400 4300 50  0000 C CNN "Digi-Key"
+	1    2300 4700
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Counter_Clockwise J23
 U 1 1 621ECDC3
-P 1150 4100
+P 1150 4400
 AR Path="/621ECDC3" Ref="J23"  Part="1" 
 AR Path="/5E13FF9B/621ECDC3" Ref="J?"  Part="1" 
-F 0 "J23" H 1200 3900 50  0000 C CNN
-F 1 "Molex: 0039281243" V 1200 4050 39  0001 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 1150 4100 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 4100 50  0001 C CNN
-F 4 "WM3811-ND " H 1200 3850 50  0001 C CNN "Digi-Key"
-	1    1150 4100
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J14
-U 1 1 62196D36
-P 1150 3200
-AR Path="/62196D36" Ref="J14"  Part="1" 
-AR Path="/5E13FF9B/62196D36" Ref="J?"  Part="1" 
-F 0 "J14" H 1200 3000 50  0000 C CNN
-F 1 "Molex: 0039281243" V 1200 3150 39  0001 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 1150 3200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 3200 50  0001 C CNN
-F 4 "WM3811-ND " H 1200 3500 50  0001 C CNN "Digi-Key"
-	1    1150 3200
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J12
-U 1 1 61DC7D9B
-P 1150 2650
-AR Path="/61DC7D9B" Ref="J12"  Part="1" 
-AR Path="/5E13FF9B/61DC7D9B" Ref="J?"  Part="1" 
-F 0 "J12" H 1200 2450 50  0000 C CNN
-F 1 "Molex: 0039281243" V 1200 2600 39  0001 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 1150 2650 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 2650 50  0001 C CNN
-F 4 "WM3811-ND " H 1200 2400 50  0001 C CNN "Digi-Key"
-	1    1150 2650
+F 0 "J23" H 1200 4200 50  0000 C CNN
+F 1 "Molex: 0039281243" V 1200 4350 39  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 1150 4400 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 4400 50  0001 C CNN
+F 4 "WM3811-ND " H 1200 4150 50  0001 C CNN "Digi-Key"
+	1    1150 4400
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	1450 2550 1450 2650
-Connection ~ 1450 2650
+	1450 4300 1450 4400
+Connection ~ 1450 4400
 Wire Wire Line
-	1450 2650 1450 2750
-Wire Wire Line
-	1450 3100 1450 3200
-Connection ~ 1450 3200
-Wire Wire Line
-	1450 3200 1450 3300
-Wire Wire Line
-	1450 4000 1450 4100
-Connection ~ 1450 4100
-Wire Wire Line
-	1450 4100 1450 4200
-Wire Wire Line
-	2150 2650 2150 2750
-Connection ~ 2150 2750
-Wire Wire Line
-	2150 2750 2150 2850
-Connection ~ 2150 2850
-Wire Wire Line
-	2150 2850 2150 2950
-Connection ~ 2150 2950
-Wire Wire Line
-	2150 2950 2150 3050
-Connection ~ 2150 3050
-Wire Wire Line
-	2150 3050 2150 3150
-Wire Wire Line
-	2650 2650 2650 2750
-Connection ~ 2650 2750
-Wire Wire Line
-	2650 2750 2650 2850
-Connection ~ 2650 2850
-Wire Wire Line
-	2650 2850 2650 2950
-Connection ~ 2650 2950
-Wire Wire Line
-	2650 2950 2650 3050
-Connection ~ 2650 3050
-Wire Wire Line
-	2650 3050 2650 3150
-Wire Wire Line
-	2600 4100 2600 4200
-Connection ~ 2600 4200
-Wire Wire Line
-	2600 4200 2600 4300
-Connection ~ 2600 4300
-Wire Wire Line
-	2600 4300 2600 4400
-Connection ~ 2600 4400
+	1450 4400 1450 4500
 Wire Wire Line
 	2600 4400 2600 4500
 Connection ~ 2600 4500
 Wire Wire Line
 	2600 4500 2600 4600
+Connection ~ 2600 4600
 Wire Wire Line
-	1450 2650 1550 2650
+	2600 4600 2600 4700
+Connection ~ 2600 4700
 Wire Wire Line
-	1450 3200 1550 3200
+	2600 4700 2600 4800
+Connection ~ 2600 4800
 Wire Wire Line
-	1450 4100 1550 4100
+	2600 4800 2600 4900
 Wire Wire Line
-	2650 2750 2750 2750
+	1450 4400 1550 4400
 Wire Wire Line
-	2700 4200 2600 4200
-Text Notes 1050 3800 0    50   ~ 0
+	2700 4500 2600 4500
+Text Notes 1050 4100 0    50   ~ 0
 Secondary +12V3 Power Rail Input Terminal
 Wire Wire Line
-	1450 4650 1550 4650
+	1450 4950 1550 4950
 Wire Wire Line
-	1450 4650 1450 4750
-Connection ~ 1450 4650
+	1450 4950 1450 5050
+Connection ~ 1450 4950
 Wire Wire Line
-	1450 4550 1450 4650
+	1450 4850 1450 4950
 $Comp
 L Connector_Generic:Conn_02x03_Counter_Clockwise J27
 U 1 1 621ECDE7
-P 1150 4650
+P 1150 4950
 AR Path="/621ECDE7" Ref="J27"  Part="1" 
 AR Path="/5E13FF9B/621ECDE7" Ref="J?"  Part="1" 
-F 0 "J27" H 1200 4450 50  0000 C CNN
-F 1 "Molex: 0039281243" V 1200 4600 39  0001 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 1150 4650 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 4650 50  0001 C CNN
-F 4 "WM3811-ND " H 1200 4950 50  0001 C CNN "Digi-Key"
-	1    1150 4650
+F 0 "J27" H 1200 4750 50  0000 C CNN
+F 1 "Molex: 0039281243" V 1200 4900 39  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 1150 4950 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 4950 50  0001 C CNN
+F 4 "WM3811-ND " H 1200 5250 50  0001 C CNN "Digi-Key"
+	1    1150 4950
 	1    0    0    1   
 $EndComp
-Text GLabel 1550 4650 2    50   Input ~ 0
+Text GLabel 1550 4950 2    50   Input ~ 0
 +12V3
 Wire Notes Line
 	10500 4400 10500 4450
-Text GLabel 3350 1500 2    50   Input ~ 0
+Text GLabel 3350 1400 2    50   Input ~ 0
 +12V1
-Text GLabel 3350 950  2    50   Input ~ 0
+Text GLabel 3350 850  2    50   Input ~ 0
 +12V1
 Wire Wire Line
 	8150 2850 8250 2850
@@ -593,7 +483,6 @@ F 3 "" H 9550 4000 50  0001 C CNN
 	1    9550 4000
 	1    0    0    -1  
 $EndComp
-Connection ~ 9550 3250
 Wire Wire Line
 	9500 3250 9550 3250
 Wire Wire Line
@@ -630,17 +519,6 @@ F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 9950 4150 50  0001 
 $EndComp
 Text GLabel 7850 2850 0    50   Input ~ 0
 +12V3
-$Comp
-L power:+12V #PWR014
-U 1 1 6232FBCF
-P 8250 2850
-F 0 "#PWR014" H 8250 2700 50  0001 C CNN
-F 1 "+12V" H 8250 3000 50  0000 C CNN
-F 2 "" H 8250 2850 50  0001 C CNN
-F 3 "" H 8250 2850 50  0001 C CNN
-	1    8250 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10050 3650 10050 3750
 Connection ~ 10350 3750
@@ -677,17 +555,6 @@ F 3 "~" H 10200 3750 50  0001 C CNN
 $EndComp
 Text GLabel 10550 3250 1    50   Output ~ 0
 12V3-
-$Comp
-L Sensor_Current:ACS712xLCTR-20A U3
-U 1 1 6232FBEF
-P 9950 3250
-F 0 "U3" V 9350 3250 50  0000 C CNN
-F 1 "ACS712xLCTR-20A" V 9450 3250 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10050 2900 50  0001 L CIN
-F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 9950 3250 50  0001 C CNN
-	1    9950 3250
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	10650 2850 10650 3250
 Text GLabel 9050 3900 2    50   Input ~ 0
@@ -965,8 +832,8 @@ $Comp
 L Connector_Generic:Conn_01x02 J29
 U 1 1 628AFDAC
 P 9300 4950
-F 0 "J29" H 9400 4950 50  0000 L CNN
-F 1 "Fan1" H 9350 4850 50  0000 L CNN
+F 0 "J29" H 9400 5000 50  0000 L CNN
+F 1 "Fan1" H 9350 4900 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9300 4950 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 9300 4950 50  0001 C CNN
 	1    9300 4950
@@ -1070,17 +937,6 @@ Wire Wire Line
 Connection ~ 7950 4850
 Text GLabel 8850 5900 2    50   Input ~ 0
 3.3V-
-$Comp
-L power:+3.3V #PWR027
-U 1 1 62592F38
-P 7950 4850
-F 0 "#PWR027" H 7950 4700 50  0001 C CNN
-F 1 "+3.3V" H 7950 5000 50  0000 C CNN
-F 2 "" H 7950 4850 50  0001 C CNN
-F 3 "" H 7950 4850 50  0001 C CNN
-	1    7950 4850
-	1    0    0    -1  
-$EndComp
 Text GLabel 7550 4850 0    50   Input ~ 0
 +3.3V
 Wire Wire Line
@@ -1193,8 +1049,8 @@ $Comp
 L Connector_Generic:Conn_01x02 J28
 U 1 1 62592EE2
 P 5350 4950
-F 0 "J28" H 5450 4950 50  0000 L CNN
-F 1 "Fan1" H 5400 4850 50  0000 L CNN
+F 0 "J28" H 5450 5000 50  0000 L CNN
+F 1 "Fan1" H 5400 4900 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 5350 4950 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 5350 4950 50  0001 C CNN
 	1    5350 4950
@@ -1324,17 +1180,6 @@ Wire Wire Line
 Connection ~ 6400 5750
 Wire Wire Line
 	6100 5650 6100 5750
-$Comp
-L power:+5V #PWR026
-U 1 1 62592E93
-P 4000 4850
-F 0 "#PWR026" H 4000 4700 50  0001 C CNN
-F 1 "+5V" H 4000 5000 50  0000 C CNN
-F 2 "" H 4000 4850 50  0001 C CNN
-F 3 "" H 4000 4850 50  0001 C CNN
-	1    4000 4850
-	1    0    0    -1  
-$EndComp
 Text GLabel 3600 4850 0    50   Input ~ 0
 +5V
 Wire Wire Line
@@ -1596,17 +1441,6 @@ Wire Wire Line
 Connection ~ 6400 3750
 Wire Wire Line
 	6100 3650 6100 3750
-$Comp
-L power:+12V #PWR013
-U 1 1 622C198F
-P 4300 2850
-F 0 "#PWR013" H 4300 2700 50  0001 C CNN
-F 1 "+12V" H 4300 3000 50  0000 C CNN
-F 2 "" H 4300 2850 50  0001 C CNN
-F 3 "" H 4300 2850 50  0001 C CNN
-	1    4300 2850
-	1    0    0    -1  
-$EndComp
 Text GLabel 3900 2850 0    50   Input ~ 0
 +12V2
 $Comp
@@ -1726,17 +1560,6 @@ F 1 "GNDREF" H 9105 877 50  0000 C CNN
 F 2 "" H 9100 1050 50  0001 C CNN
 F 3 "" H 9100 1050 50  0001 C CNN
 	1    9100 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 62990BCA
-P 9300 950
-F 0 "J1" H 9400 950 50  0000 L CNN
-F 1 "Fan1" H 9350 850 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9300 950 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 9300 950 50  0001 C CNN
-	1    9300 950 
 	1    0    0    -1  
 $EndComp
 Connection ~ 7950 1550
@@ -1882,22 +1705,8 @@ F 3 "~" H 10200 1750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10350 1950 10050 1950
-Connection ~ 10350 1950
 Wire Wire Line
 	10350 1750 10350 1950
-Wire Wire Line
-	10350 1950 10350 2000
-$Comp
-L power:GNDREF #PWR010
-U 1 1 62461CD9
-P 10350 2000
-F 0 "#PWR010" H 10350 1750 50  0001 C CNN
-F 1 "GNDREF" H 10355 1827 50  0000 C CNN
-F 2 "" H 10350 2000 50  0001 C CNN
-F 3 "" H 10350 2000 50  0001 C CNN
-	1    10350 2000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10350 1750 10350 1250
 Connection ~ 10350 1750
@@ -1912,17 +1721,6 @@ F 1 "20" V 7950 950 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 7880 1000 50  0001 C CNN
 F 3 "~" H 7950 1000 50  0001 C CNN
 	1    7950 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR01
-U 1 1 61E4826B
-P 7950 850
-F 0 "#PWR01" H 7950 700 50  0001 C CNN
-F 1 "+12V" H 7950 1000 50  0000 C CNN
-F 2 "" H 7950 850 50  0001 C CNN
-F 3 "" H 7950 850 50  0001 C CNN
-	1    7950 850 
 	1    0    0    -1  
 $EndComp
 Text GLabel 7300 850  0    50   Input ~ 0
@@ -2068,7 +1866,7 @@ Wire Wire Line
 	4300 3150 4300 3350
 Wire Wire Line
 	8250 3150 8250 3350
-Text GLabel 4250 1200 0    50   Input ~ 0
+Text GLabel 4350 1300 0    50   Input ~ 0
 PS_ON
 $Comp
 L power:GNDREF #PWR05
@@ -2092,9 +1890,7 @@ F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 4350 1000 50  0001 
 	1    4350 1000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4350 1200 4250 1200
-Text GLabel 5400 1200 0    50   Input ~ 0
+Text GLabel 5500 1350 0    50   Input ~ 0
 +5VSB
 $Comp
 L power:GNDREF #PWR07
@@ -2119,8 +1915,6 @@ F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 5500 1000 50  0001 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5500 1200 5400 1200
-Wire Wire Line
 	7650 1450 7650 1550
 $Comp
 L Connector_Generic:Conn_01x02 J6
@@ -2135,146 +1929,100 @@ F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 7450 1350 50  0001 
 $EndComp
 Wire Wire Line
 	7650 1150 7650 1350
-Text GLabel 2400 1050 1    50   Input ~ 0
+Text GLabel 2450 2250 1    50   Input ~ 0
 GND
 $Comp
 L power:GNDREF #PWR02
 U 1 1 6300CA0F
-P 2400 1050
-F 0 "#PWR02" H 2400 800 50  0001 C CNN
-F 1 "GNDREF" H 2405 877 50  0000 C CNN
-F 2 "" H 2400 1050 50  0001 C CNN
-F 3 "" H 2400 1050 50  0001 C CNN
-	1    2400 1050
+P 2450 2250
+F 0 "#PWR02" H 2450 2000 50  0001 C CNN
+F 1 "GNDREF" H 2455 2077 50  0000 C CNN
+F 2 "" H 2450 2250 50  0001 C CNN
+F 3 "" H 2450 2250 50  0001 C CNN
+	1    2450 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 2350 7400
+Connection ~ 2350 7500
 $Comp
 L power:GNDREF #PWR036
 U 1 1 630351B7
-P 2350 7400
-F 0 "#PWR036" H 2350 7150 50  0001 C CNN
-F 1 "GNDREF" H 2355 7227 50  0000 C CNN
-F 2 "" H 2350 7400 50  0001 C CNN
-F 3 "" H 2350 7400 50  0001 C CNN
-	1    2350 7400
+P 2350 7500
+F 0 "#PWR036" H 2350 7250 50  0001 C CNN
+F 1 "GNDREF" H 2355 7327 50  0000 C CNN
+F 2 "" H 2350 7500 50  0001 C CNN
+F 3 "" H 2350 7500 50  0001 C CNN
+	1    2350 7500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  4000 950  4100
+	950  4300 950  4400
 Wire Wire Line
-	950  4550 950  4650
+	950  4850 950  4950
+Connection ~ 950  4400
 Wire Wire Line
-	950  3100 950  3200
-Connection ~ 950  3200
+	950  4400 950  4500
+Connection ~ 950  4950
 Wire Wire Line
-	950  3200 950  3300
-$Comp
-L power:GNDREF #PWR016
-U 1 1 63060D9F
-P 950 3300
-F 0 "#PWR016" H 950 3050 50  0001 C CNN
-F 1 "GNDREF" H 955 3127 50  0000 C CNN
-F 2 "" H 950 3300 50  0001 C CNN
-F 3 "" H 950 3300 50  0001 C CNN
-	1    950  3300
-	1    0    0    -1  
-$EndComp
-Connection ~ 950  3300
-$Comp
-L power:GNDREF #PWR012
-U 1 1 6304D821
-P 950 2750
-F 0 "#PWR012" H 950 2500 50  0001 C CNN
-F 1 "GNDREF" H 955 2577 50  0000 C CNN
-F 2 "" H 950 2750 50  0001 C CNN
-F 3 "" H 950 2750 50  0001 C CNN
-	1    950  2750
-	1    0    0    -1  
-$EndComp
-Connection ~ 950  4100
-Wire Wire Line
-	950  4100 950  4200
-Connection ~ 950  4650
-Wire Wire Line
-	950  4650 950  4750
-Wire Wire Line
-	950  2750 950  2650
-Connection ~ 950  2750
-Wire Wire Line
-	950  2650 950  2550
-Connection ~ 950  2650
-$Comp
-L power:GNDREF #PWR015
-U 1 1 630E40DE
-P 2150 3150
-F 0 "#PWR015" H 2150 2900 50  0001 C CNN
-F 1 "GNDREF" H 2155 2977 50  0000 C CNN
-F 2 "" H 2150 3150 50  0001 C CNN
-F 3 "" H 2150 3150 50  0001 C CNN
-	1    2150 3150
-	1    0    0    -1  
-$EndComp
-Connection ~ 2150 3150
+	950  4950 950  5050
 $Comp
 L power:GNDREF #PWR023
 U 1 1 630F8122
-P 950 4200
-F 0 "#PWR023" H 950 3950 50  0001 C CNN
-F 1 "GNDREF" H 955 4027 50  0000 C CNN
-F 2 "" H 950 4200 50  0001 C CNN
-F 3 "" H 950 4200 50  0001 C CNN
-	1    950  4200
+P 950 4500
+F 0 "#PWR023" H 950 4250 50  0001 C CNN
+F 1 "GNDREF" H 955 4327 50  0000 C CNN
+F 2 "" H 950 4500 50  0001 C CNN
+F 3 "" H 950 4500 50  0001 C CNN
+	1    950  4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 950  4200
+Connection ~ 950  4500
 $Comp
 L power:GNDREF #PWR025
 U 1 1 630F8395
-P 950 4750
-F 0 "#PWR025" H 950 4500 50  0001 C CNN
-F 1 "GNDREF" H 955 4577 50  0000 C CNN
-F 2 "" H 950 4750 50  0001 C CNN
-F 3 "" H 950 4750 50  0001 C CNN
-	1    950  4750
+P 950 5050
+F 0 "#PWR025" H 950 4800 50  0001 C CNN
+F 1 "GNDREF" H 955 4877 50  0000 C CNN
+F 2 "" H 950 5050 50  0001 C CNN
+F 3 "" H 950 5050 50  0001 C CNN
+	1    950  5050
 	1    0    0    -1  
 $EndComp
-Connection ~ 950  4750
+Connection ~ 950  5050
 $Comp
 L power:GNDREF #PWR024
 U 1 1 630F8CED
-P 2100 4600
-F 0 "#PWR024" H 2100 4350 50  0001 C CNN
-F 1 "GNDREF" H 2105 4427 50  0000 C CNN
-F 2 "" H 2100 4600 50  0001 C CNN
-F 3 "" H 2100 4600 50  0001 C CNN
-	1    2100 4600
+P 2100 4900
+F 0 "#PWR024" H 2100 4650 50  0001 C CNN
+F 1 "GNDREF" H 2105 4727 50  0000 C CNN
+F 2 "" H 2100 4900 50  0001 C CNN
+F 3 "" H 2100 4900 50  0001 C CNN
+	1    2100 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDREF #PWR03
 U 1 1 630F96CD
-P 2750 1050
-F 0 "#PWR03" H 2750 800 50  0001 C CNN
-F 1 "GNDREF" H 2755 877 50  0000 C CNN
-F 2 "" H 2750 1050 50  0001 C CNN
-F 3 "" H 2750 1050 50  0001 C CNN
-	1    2750 1050
+P 2750 950
+F 0 "#PWR03" H 2750 700 50  0001 C CNN
+F 1 "GNDREF" H 2755 777 50  0000 C CNN
+F 2 "" H 2750 950 50  0001 C CNN
+F 3 "" H 2750 950 50  0001 C CNN
+	1    2750 950 
 	1    0    0    -1  
 $EndComp
-Connection ~ 2750 1050
+Connection ~ 2750 950 
 $Comp
 L power:GNDREF #PWR08
 U 1 1 630F9AB3
-P 2750 1800
-F 0 "#PWR08" H 2750 1550 50  0001 C CNN
-F 1 "GNDREF" H 2755 1627 50  0000 C CNN
-F 2 "" H 2750 1800 50  0001 C CNN
-F 3 "" H 2750 1800 50  0001 C CNN
-	1    2750 1800
+P 2750 1700
+F 0 "#PWR08" H 2750 1450 50  0001 C CNN
+F 1 "GNDREF" H 2755 1527 50  0000 C CNN
+F 2 "" H 2750 1700 50  0001 C CNN
+F 3 "" H 2750 1700 50  0001 C CNN
+	1    2750 1700
 	1    0    0    -1  
 $EndComp
-Connection ~ 2750 1800
+Connection ~ 2750 1700
 Wire Notes Line
 	6950 550  11150 550 
 Wire Notes Line
@@ -2308,53 +2056,41 @@ Wire Notes Line
 Wire Notes Line
 	11150 4550 7200 4550
 Wire Notes Line
-	750  6800 3150 6800
+	750  6900 3150 6900
 Wire Notes Line
-	3150 6800 3150 7650
+	3150 6900 3150 7750
 Wire Notes Line
-	3150 7650 750  7650
+	3150 7750 750  7750
 Wire Notes Line
-	750  7650 750  6800
+	750  7750 750  6900
 Wire Notes Line
-	750  6700 750  6000
+	750  6850 750  6150
 Wire Notes Line
-	750  6000 3150 6000
+	750  6150 3150 6150
 Wire Notes Line
-	3150 6000 3150 6700
+	3150 6150 3150 6850
 Wire Notes Line
-	3150 6700 750  6700
+	3150 6850 750  6850
 Wire Notes Line
-	3150 5950 3150 5250
+	3150 6100 3150 5400
 Wire Notes Line
-	3150 5250 750  5250
+	3150 5400 750  5400
 Wire Notes Line
-	750  5250 750  5950
+	750  5400 750  6100
 Wire Notes Line
-	750  5950 3150 5950
+	750  6100 3150 6100
 Wire Notes Line
-	750  5050 750  3700
+	750  4000 3150 4000
 Wire Notes Line
-	750  3700 3150 3700
-Wire Notes Line
-	3150 3700 3150 5050
-Wire Notes Line
-	3150 5050 750  5050
-Wire Notes Line
-	750  3550 750  2250
-Wire Notes Line
-	750  2250 3150 2250
-Wire Notes Line
-	3150 2250 3150 3550
-Wire Notes Line
-	3150 3550 750  3550
+	3150 5350 750  5350
 Wire Notes Line
 	750  550  3700 550 
 Wire Notes Line
-	3700 550  3700 2200
+	3700 550  3700 2500
 Wire Notes Line
-	3700 2200 750  2200
+	3700 2500 750  2500
 Wire Notes Line
-	750  550  750  2200
+	750  550  750  2500
 Wire Notes Line
 	3800 550  4900 550 
 Wire Notes Line
@@ -2403,20 +2139,20 @@ The heatsink will be attached\nto the power mosfets.
 Text Notes 6200 650  0    50   ~ 0
 Mosfet Cooling
 Wire Wire Line
+	2100 4900 2100 4800
+Connection ~ 2100 4900
+Wire Wire Line
+	2100 4800 2100 4700
+Connection ~ 2100 4800
+Wire Wire Line
+	2100 4700 2100 4600
+Connection ~ 2100 4700
+Wire Wire Line
 	2100 4600 2100 4500
 Connection ~ 2100 4600
 Wire Wire Line
 	2100 4500 2100 4400
 Connection ~ 2100 4500
-Wire Wire Line
-	2100 4400 2100 4300
-Connection ~ 2100 4400
-Wire Wire Line
-	2100 4300 2100 4200
-Connection ~ 2100 4300
-Wire Wire Line
-	2100 4200 2100 4100
-Connection ~ 2100 4200
 $Comp
 L Device:C C2
 U 1 1 625B386A
@@ -2427,5 +2163,325 @@ F 2 "" H 9588 1650 50  0001 C CNN
 F 3 "~" H 9550 1800 50  0001 C CNN
 	1    9550 1800
 	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 623AE45B
+P 5600 3250
+F 0 "#PWR0103" H 5600 3100 50  0001 C CNN
+F 1 "+5V" H 5600 3400 50  0000 C CNN
+F 2 "" H 5600 3250 50  0001 C CNN
+F 3 "" H 5600 3250 50  0001 C CNN
+	1    5600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 623AEA93
+P 9550 5250
+F 0 "#PWR0104" H 9550 5100 50  0001 C CNN
+F 1 "+5V" H 9550 5400 50  0000 C CNN
+F 2 "" H 9550 5250 50  0001 C CNN
+F 3 "" H 9550 5250 50  0001 C CNN
+	1    9550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 623AF328
+P 5600 5250
+F 0 "#PWR0105" H 5600 5100 50  0001 C CNN
+F 1 "+5V" H 5600 5400 50  0000 C CNN
+F 2 "" H 5600 5250 50  0001 C CNN
+F 3 "" H 5600 5250 50  0001 C CNN
+	1    5600 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1850 1800 2    50   Input ~ 0
+-12V
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 62990BCA
+P 9300 950
+F 0 "J1" H 9400 1000 50  0000 L CNN
+F 1 "Fan1" H 9350 900 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9300 950 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 9300 950 50  0001 C CNN
+	1    9300 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1850 1200 2    50   Input ~ 0
+-5V
+$Comp
+L power:GNDREF #PWR010
+U 1 1 62461CD9
+P 10350 1950
+F 0 "#PWR010" H 10350 1700 50  0001 C CNN
+F 1 "GNDREF" H 10355 1777 50  0000 C CNN
+F 2 "" H 10350 1950 50  0001 C CNN
+F 3 "" H 10350 1950 50  0001 C CNN
+	1    10350 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 10350 1950
+Text GLabel 1350 1200 0    50   Input ~ 0
+PWR_OK
+NoConn ~ 1350 1200
+Wire Notes Line
+	3150 4000 3150 5350
+Wire Notes Line
+	750  5350 750  4000
+Wire Notes Line
+	3150 3950 750  3950
+Wire Notes Line
+	3150 2650 3150 3950
+Wire Notes Line
+	750  2650 3150 2650
+Wire Notes Line
+	750  3950 750  2650
+$Comp
+L power:GNDREF #PWR015
+U 1 1 630E40DE
+P 2150 3550
+F 0 "#PWR015" H 2150 3300 50  0001 C CNN
+F 1 "GNDREF" H 2155 3377 50  0000 C CNN
+F 2 "" H 2150 3550 50  0001 C CNN
+F 3 "" H 2150 3550 50  0001 C CNN
+	1    2150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR016
+U 1 1 63060D9F
+P 950 3700
+F 0 "#PWR016" H 950 3450 50  0001 C CNN
+F 1 "GNDREF" H 955 3527 50  0000 C CNN
+F 2 "" H 950 3700 50  0001 C CNN
+F 3 "" H 950 3700 50  0001 C CNN
+	1    950  3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3500 950  3600
+Wire Wire Line
+	2650 3150 2750 3150
+Wire Wire Line
+	1450 3600 1550 3600
+Wire Wire Line
+	2650 3450 2650 3550
+Connection ~ 2650 3450
+Wire Wire Line
+	2650 3350 2650 3450
+Connection ~ 2650 3350
+Wire Wire Line
+	2650 3250 2650 3350
+Connection ~ 2650 3250
+Wire Wire Line
+	2650 3150 2650 3250
+Connection ~ 2650 3150
+Wire Wire Line
+	2650 3050 2650 3150
+Wire Wire Line
+	2150 3350 2150 3450
+Connection ~ 2150 3350
+Wire Wire Line
+	2150 3250 2150 3350
+Connection ~ 2150 3250
+Wire Wire Line
+	2150 3150 2150 3250
+Connection ~ 2150 3150
+Wire Wire Line
+	2150 3050 2150 3150
+Wire Wire Line
+	1450 3600 1450 3700
+Connection ~ 1450 3600
+Wire Wire Line
+	1450 3500 1450 3600
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J14
+U 1 1 62196D36
+P 1150 3600
+AR Path="/62196D36" Ref="J14"  Part="1" 
+AR Path="/5E13FF9B/62196D36" Ref="J?"  Part="1" 
+F 0 "J14" H 1200 3400 50  0000 C CNN
+F 1 "Molex: 0039281243" V 1200 3550 39  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 1150 3600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 3600 50  0001 C CNN
+F 4 "WM3811-ND " H 1200 3900 50  0001 C CNN "Digi-Key"
+	1    1150 3600
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Counter_Clockwise J13
+U 1 1 6241F25C
+P 2350 3350
+AR Path="/6241F25C" Ref="J13"  Part="1" 
+AR Path="/5E13FF9B/6241F25C" Ref="J?"  Part="1" 
+F 0 "J13" H 2400 2850 50  0000 C CNN
+F 1 "Molex: 0039281243" V 2400 3300 39  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 2350 3350 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2350 3350 50  0001 C CNN
+F 4 "WM3811-ND " H 2450 2950 50  0000 C CNN "Digi-Key"
+	1    2350 3350
+	1    0    0    1   
+$EndComp
+Text GLabel 2750 3150 2    50   Input ~ 0
++12V2
+Text GLabel 1550 3600 2    50   Input ~ 0
++12V2
+Text Notes 950  2750 0    50   ~ 0
+Secondary +12V2 Power Rail Input Terminal
+Text GLabel 2800 2350 2    50   Input ~ 0
+-5V
+Text GLabel 2800 2250 2    50   Input ~ 0
+-12V
+Text Notes 3200 2250 0    30   ~ 0
+These pins will not \nbe used in the \npower supply
+Wire Notes Line
+	2750 2450 3650 2450
+Wire Notes Line
+	3650 2450 3650 2000
+Wire Notes Line
+	3650 2000 2750 2000
+Wire Notes Line
+	2750 2000 2750 2450
+Text GLabel 2800 2150 2    50   Input ~ 0
+PWR_OK
+NoConn ~ 2800 2150
+NoConn ~ 2800 2250
+NoConn ~ 2800 2350
+Wire Wire Line
+	2150 3550 2150 3450
+Connection ~ 2150 3550
+Connection ~ 2150 3450
+Wire Wire Line
+	950  3700 950  3600
+Connection ~ 950  3700
+Connection ~ 950  3600
+Connection ~ 950  3050
+Connection ~ 950  3150
+Wire Wire Line
+	950  3150 950  3050
+Text GLabel 1550 3050 2    50   Input ~ 0
++12V2
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J12
+U 1 1 61DC7D9B
+P 1150 3050
+AR Path="/61DC7D9B" Ref="J12"  Part="1" 
+AR Path="/5E13FF9B/61DC7D9B" Ref="J?"  Part="1" 
+F 0 "J12" H 1200 2850 50  0000 C CNN
+F 1 "Molex: 0039281243" V 1200 3000 39  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 1150 3050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 3050 50  0001 C CNN
+F 4 "WM3811-ND " H 1200 2800 50  0001 C CNN "Digi-Key"
+	1    1150 3050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1450 2950 1450 3050
+Connection ~ 1450 3050
+Wire Wire Line
+	1450 3050 1450 3150
+Wire Wire Line
+	1450 3050 1550 3050
+$Comp
+L power:GNDREF #PWR012
+U 1 1 6304D821
+P 950 3150
+F 0 "#PWR012" H 950 2900 50  0001 C CNN
+F 1 "GNDREF" H 955 2977 50  0000 C CNN
+F 2 "" H 950 3150 50  0001 C CNN
+F 3 "" H 950 3150 50  0001 C CNN
+	1    950  3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3050 950  2950
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6264EF0D
+P 5500 1200
+F 0 "#FLG0101" H 5500 1275 50  0001 C CNN
+F 1 "PWR_FLAG" V 5500 1327 50  0000 L CNN
+F 2 "" H 5500 1200 50  0001 C CNN
+F 3 "~" H 5500 1200 50  0001 C CNN
+	1    5500 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 1200 5500 1350
+Connection ~ 5500 1200
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 62667C50
+P 4350 1200
+F 0 "#FLG0102" H 4350 1275 50  0001 C CNN
+F 1 "PWR_FLAG" V 4350 1327 50  0000 L CNN
+F 2 "" H 4350 1200 50  0001 C CNN
+F 3 "~" H 4350 1200 50  0001 C CNN
+	1    4350 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 1200 4350 1300
+Connection ~ 4350 1200
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 626804EB
+P 7950 850
+F 0 "#FLG0104" H 7950 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 7950 1023 50  0000 C CNN
+F 2 "" H 7950 850 50  0001 C CNN
+F 3 "~" H 7950 850 50  0001 C CNN
+	1    7950 850 
+	1    0    0    -1  
+$EndComp
+Connection ~ 9550 3250
+$Comp
+L Sensor_Current:ACS712xLCTR-20A U3
+U 1 1 6232FBEF
+P 9950 3250
+F 0 "U3" V 9350 3250 50  0000 C CNN
+F 1 "ACS712xLCTR-20A" V 9450 3250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10050 2900 50  0001 L CIN
+F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 9950 3250 50  0001 C CNN
+	1    9950 3250
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 62683140
+P 9550 3250
+F 0 "#FLG0105" H 9550 3325 50  0001 C CNN
+F 1 "PWR_FLAG" H 9450 3400 50  0000 C CNN
+F 2 "" H 9550 3250 50  0001 C CNN
+F 3 "~" H 9550 3250 50  0001 C CNN
+	1    9550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 62684353
+P 8200 4850
+F 0 "#FLG0106" H 8200 4925 50  0001 C CNN
+F 1 "PWR_FLAG" H 8200 5023 50  0000 C CNN
+F 2 "" H 8200 4850 50  0001 C CNN
+F 3 "~" H 8200 4850 50  0001 C CNN
+	1    8200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6000 1600 6000
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 6267F349
+P 2450 2250
+F 0 "#FLG0103" H 2450 2325 50  0001 C CNN
+F 1 "PWR_FLAG" V 2450 2377 50  0000 L CNN
+F 2 "" H 2450 2250 50  0001 C CNN
+F 3 "~" H 2450 2250 50  0001 C CNN
+	1    2450 2250
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
