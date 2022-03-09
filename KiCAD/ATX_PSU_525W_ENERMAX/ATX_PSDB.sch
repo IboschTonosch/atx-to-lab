@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ATX Power Supply Distribution Board"
-Date ""
-Rev ""
+Date "2022-03-01"
+Rev "1.0"
 Comp "Ibrahim Tüzenli"
 Comment1 ""
 Comment2 ""
@@ -258,9 +258,9 @@ Connection ~ 2250 7500
 Wire Wire Line
 	2250 7500 2150 7500
 Text Notes 1050 6250 0    50   ~ 0
-Secondary +5V Power Input Terminal
+Secondary +5V and +3.3V Power Input Terminal
 Text Notes 800  7000 0    50   ~ 0
-Secondary +12V2/+12V3 Power Rail Input Terminal
+Ground Terminal
 Wire Wire Line
 	1200 6000 1300 6000
 Connection ~ 1500 6000
@@ -358,7 +358,7 @@ AR Path="/621ECDC3" Ref="J23"  Part="1"
 AR Path="/5E13FF9B/621ECDC3" Ref="J?"  Part="1" 
 F 0 "J23" H 1200 4200 50  0000 C CNN
 F 1 "Molex: 0039281243" V 1200 4350 39  0001 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 1150 4400 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 1150 4400 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 4400 50  0001 C CNN
 F 4 "WM3811-ND " H 1200 4150 50  0001 C CNN "Digi-Key"
 	1    1150 4400
@@ -404,7 +404,7 @@ AR Path="/621ECDE7" Ref="J27"  Part="1"
 AR Path="/5E13FF9B/621ECDE7" Ref="J?"  Part="1" 
 F 0 "J27" H 1200 4750 50  0000 C CNN
 F 1 "Molex: 0039281243" V 1200 4900 39  0001 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 1150 4950 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 1150 4950 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 4950 50  0001 C CNN
 F 4 "WM3811-ND " H 1200 5250 50  0001 C CNN "Digi-Key"
 	1    1150 4950
@@ -430,7 +430,7 @@ AR Path="/5E06D8A7/6232FB88" Ref="F?"  Part="1"
 F 0 "F3" V 8100 2900 50  0000 R CNN
 F 1 "10A" V 7900 2950 50  0000 R CNN
 F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 7930 2850 50  0001 C CNN
-F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf / https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OG__Holder__6.3x32.pdf" H 8000 2850 50  0001 C CNN
+F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf" H 8000 2850 50  0001 C CNN
 F 4 "486-3322-ND / 486-3643-ND" H 8000 2850 50  0001 C CNN "DigiKey_Nr"
 F 5 "Schurter Inc" H 8000 2850 50  0001 C CNN "OEM"
 F 6 "8020.5078 / 0031.8002 " V 8050 2850 31  0001 C CNN "OEM_Nr"
@@ -983,7 +983,7 @@ AR Path="/5E06D8A7/62592EF7" Ref="F?"  Part="1"
 F 0 "F5" V 7800 4900 50  0000 R CNN
 F 1 "10A" V 7600 4950 50  0000 R CNN
 F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 7630 4850 50  0001 C CNN
-F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf / https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OG__Holder__6.3x32.pdf" H 7700 4850 50  0001 C CNN
+F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf" H 7700 4850 50  0001 C CNN
 F 4 "486-3322-ND / 486-3643-ND" H 7700 4850 50  0001 C CNN "DigiKey_Nr"
 F 5 "Schurter Inc" H 7700 4850 50  0001 C CNN "OEM"
 F 6 "8020.5078 / 0031.8002 " V 7750 4850 31  0001 C CNN "OEM_Nr"
@@ -1275,7 +1275,7 @@ AR Path="/5E06D8A7/62592E52" Ref="F?"  Part="1"
 F 0 "F4" V 3850 4900 50  0000 R CNN
 F 1 "10A" V 3650 4950 50  0000 R CNN
 F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 3680 4850 50  0001 C CNN
-F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf / https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OG__Holder__6.3x32.pdf" H 3750 4850 50  0001 C CNN
+F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf" H 3750 4850 50  0001 C CNN
 F 4 "486-3322-ND / 486-3643-ND" H 3750 4850 50  0001 C CNN "DigiKey_Nr"
 F 5 "Schurter Inc" H 3750 4850 50  0001 C CNN "OEM"
 F 6 "8020.5078 / 0031.8002 " V 3800 4850 31  0001 C CNN "OEM_Nr"
@@ -1534,7 +1534,7 @@ AR Path="/5E06D8A7/622C1948" Ref="F?"  Part="1"
 F 0 "F2" V 4150 2900 50  0000 R CNN
 F 1 "10A" V 3950 2950 50  0000 R CNN
 F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 3980 2850 50  0001 C CNN
-F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf / https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OG__Holder__6.3x32.pdf" H 4050 2850 50  0001 C CNN
+F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf" H 4050 2850 50  0001 C CNN
 F 4 "486-3322-ND / 486-3643-ND" H 4050 2850 50  0001 C CNN "DigiKey_Nr"
 F 5 "Schurter Inc" H 4050 2850 50  0001 C CNN "OEM"
 F 6 "8020.5078 / 0031.8002 " V 4100 2850 31  0001 C CNN "OEM_Nr"
@@ -1807,7 +1807,7 @@ AR Path="/5E06D8A7/61E482CB" Ref="F?"  Part="1"
 F 0 "F1" V 7550 900 50  0000 R CNN
 F 1 "10A" V 7350 950 50  0000 R CNN
 F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 7380 850 50  0001 C CNN
-F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf / https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OG__Holder__6.3x32.pdf" H 7450 850 50  0001 C CNN
+F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf" H 7450 850 50  0001 C CNN
 F 4 "486-3322-ND / 486-3643-ND" H 7450 850 50  0001 C CNN "DigiKey_Nr"
 F 5 "Schurter Inc" H 7450 850 50  0001 C CNN "OEM"
 F 6 "8020.5078 / 0031.8002 " V 7500 850 31  0001 C CNN "OEM_Nr"
@@ -2305,7 +2305,7 @@ AR Path="/62196D36" Ref="J14"  Part="1"
 AR Path="/5E13FF9B/62196D36" Ref="J?"  Part="1" 
 F 0 "J14" H 1200 3400 50  0000 C CNN
 F 1 "Molex: 0039281243" V 1200 3550 39  0001 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 1150 3600 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 1150 3600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 3600 50  0001 C CNN
 F 4 "WM3811-ND " H 1200 3900 50  0001 C CNN "Digi-Key"
 	1    1150 3600
@@ -2372,7 +2372,7 @@ AR Path="/61DC7D9B" Ref="J12"  Part="1"
 AR Path="/5E13FF9B/61DC7D9B" Ref="J?"  Part="1" 
 F 0 "J12" H 1200 2850 50  0000 C CNN
 F 1 "Molex: 0039281243" V 1200 3000 39  0001 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 1150 3050 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 1150 3050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 3050 50  0001 C CNN
 F 4 "WM3811-ND " H 1200 2800 50  0001 C CNN "Digi-Key"
 	1    1150 3050
