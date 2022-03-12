@@ -49,7 +49,7 @@ AR Path="/62088F4B" Ref="J10"  Part="1"
 AR Path="/5E13FF9B/62088F4B" Ref="J?"  Part="1" 
 F 0 "J10" H 3000 1200 50  0000 C CNN
 F 1 "EPS12V 8 Pin" H 3000 1300 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 2950 1600 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 2950 1600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2950 1600 50  0001 C CNN
 F 4 "WM3811-ND " H 3050 1850 50  0001 C CNN "Digi-Key"
 	1    2950 1600
@@ -117,7 +117,7 @@ U 1 1 624A2BA8
 P 1200 5800
 F 0 "J38" V 1400 5800 50  0000 R CNN
 F 1 "Screw_Terminal_01x06" V 1300 6150 50  0000 R CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00005_1x06_P5.00mm_Horizontal" H 1200 5800 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-108_1x08_P5.00mm_45Degree" H 1200 5800 50  0001 C CNN
 F 3 "~" H 1200 5800 50  0001 C CNN
 	1    1200 5800
 	0    -1   -1   0   
@@ -128,7 +128,7 @@ U 1 1 624A59DF
 P 2250 5800
 F 0 "J39" V 2450 5800 50  0000 R CNN
 F 1 "Screw_Terminal_01x06" V 2350 6150 50  0000 R CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00005_1x06_P5.00mm_Horizontal" H 2250 5800 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-108_1x08_P5.00mm_45Degree" H 2250 5800 50  0001 C CNN
 F 3 "~" H 2250 5800 50  0001 C CNN
 	1    2250 5800
 	0    -1   -1   0   
@@ -139,7 +139,7 @@ U 1 1 624A6273
 P 1200 6550
 F 0 "J42" V 1400 6550 50  0000 R CNN
 F 1 "Screw_Terminal_01x06" V 1300 6900 50  0000 R CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00005_1x06_P5.00mm_Horizontal" H 1200 6550 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-108_1x08_P5.00mm_45Degree" H 1200 6550 50  0001 C CNN
 F 3 "~" H 1200 6550 50  0001 C CNN
 	1    1200 6550
 	0    -1   -1   0   
@@ -196,7 +196,7 @@ U 1 1 624F0C19
 P 2250 6550
 F 0 "J43" V 2450 6550 50  0000 R CNN
 F 1 "Screw_Terminal_01x06" V 2350 6900 50  0000 R CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00005_1x06_P5.00mm_Horizontal" H 2250 6550 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-108_1x08_P5.00mm_45Degree" H 2250 6550 50  0001 C CNN
 F 3 "~" H 2250 6550 50  0001 C CNN
 	1    2250 6550
 	0    -1   -1   0   
@@ -220,7 +220,7 @@ U 1 1 624F5E06
 P 1750 7300
 F 0 "J44" V 1967 7246 50  0000 C CNN
 F 1 "Screw_Terminal_01x12" V 1876 7246 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00011_1x12_P5.00mm_Horizontal" H 1750 7300 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-112_1x12_P5.00mm_45Degree" H 1750 7300 50  0001 C CNN
 F 3 "~" H 1750 7300 50  0001 C CNN
 	1    1750 7300
 	0    -1   -1   0   
@@ -569,7 +569,7 @@ U 1 1 6232FBFD
 P 11000 3450
 F 0 "J22" V 11100 3350 50  0000 L CNN
 F 1 "12V Out" V 11200 3250 50  0000 L CNN
-F 2 "TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree" H 11000 3450 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 11000 3450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2106062140_DEGSON-DG129-5-08-02P-14-00A-H_C2760670.pdf" H 11000 3450 50  0001 C CNN
 	1    11000 3450
 	0    1    1    0   
@@ -781,7 +781,7 @@ U 1 1 62592F5F
 P 11000 5450
 F 0 "J37" V 11100 5350 50  0000 L CNN
 F 1 "3.3V Out" V 11200 5250 50  0000 L CNN
-F 2 "TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree" H 11000 5450 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 11000 5450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2106062140_DEGSON-DG129-5-08-02P-14-00A-H_C2760670.pdf" H 11000 5450 50  0001 C CNN
 	1    11000 5450
 	0    1    1    0   
@@ -808,7 +808,7 @@ U 1 1 623DEC46
 P 8250 3000
 F 0 "R7" H 8300 3000 50  0000 L CNN
 F 1 "680" V 8250 2950 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 8180 3000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 8180 3000 50  0001 C CNN
 F 3 "~" H 8250 3000 50  0001 C CNN
 	1    8250 3000
 	1    0    0    -1  
@@ -1120,7 +1120,7 @@ U 1 1 62592EBA
 P 7050 5450
 F 0 "J35" V 7150 5350 50  0000 L CNN
 F 1 "5V Out" V 7250 5250 50  0000 L CNN
-F 2 "TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree" H 7050 5450 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 7050 5450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2106062140_DEGSON-DG129-5-08-02P-14-00A-H_C2760670.pdf" H 7050 5450 50  0001 C CNN
 	1    7050 5450
 	0    1    1    0   
@@ -1381,7 +1381,7 @@ U 1 1 622C19BD
 P 7050 3450
 F 0 "J20" V 7150 3350 50  0000 L CNN
 F 1 "12V Out" V 7250 3250 50  0000 L CNN
-F 2 "TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree" H 7050 3450 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 7050 3450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2106062140_DEGSON-DG129-5-08-02P-14-00A-H_C2760670.pdf" H 7050 3450 50  0001 C CNN
 	1    7050 3450
 	0    1    1    0   
@@ -1666,7 +1666,7 @@ U 1 1 62C99EAB
 P 11000 1450
 F 0 "J8" V 11100 1350 50  0000 L CNN
 F 1 "12V Out" V 11200 1250 50  0000 L CNN
-F 2 "TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree" H 11000 1450 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 11000 1450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2106062140_DEGSON-DG129-5-08-02P-14-00A-H_C2760670.pdf" H 11000 1450 50  0001 C CNN
 	1    11000 1450
 	0    1    1    0   
