@@ -48,7 +48,7 @@ P 2950 1600
 AR Path="/62088F4B" Ref="J10"  Part="1" 
 AR Path="/5E13FF9B/62088F4B" Ref="J?"  Part="1" 
 F 0 "J10" H 3000 1200 50  0000 C CNN
-F 1 "EPS12V 8 Pin" H 3000 1300 50  0000 C CNN
+F 1 "ATX12V1 8 Pin" H 3000 1300 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 2950 1600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2950 1600 50  0001 C CNN
 F 4 "WM3811-ND " H 3050 1850 50  0001 C CNN "Digi-Key"
@@ -281,7 +281,7 @@ L Connector_Generic:Conn_02x02_Top_Bottom J4
 U 1 1 620C0620
 P 2950 950
 F 0 "J4" H 3000 625 50  0000 C CNN
-F 1 "EPS12V 4Pin" H 3000 716 50  0000 C CNN
+F 1 "ATX12V1" H 3000 716 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 2950 950 50  0001 C CNN
 F 3 "~" H 2950 950 50  0001 C CNN
 	1    2950 950 
@@ -2318,7 +2318,7 @@ P 2350 3350
 AR Path="/6241F25C" Ref="J13"  Part="1" 
 AR Path="/5E13FF9B/6241F25C" Ref="J?"  Part="1" 
 F 0 "J13" H 2400 2850 50  0000 C CNN
-F 1 "Molex: 0039281243" V 2400 3300 39  0000 C CNN
+F 1 "12V2" V 2400 3300 39  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 2350 3350 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2350 3350 50  0001 C CNN
 F 4 "WM3811-ND " H 2450 2950 50  0000 C CNN "Digi-Key"
