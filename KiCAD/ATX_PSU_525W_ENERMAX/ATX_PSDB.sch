@@ -117,7 +117,7 @@ U 1 1 624A2BA8
 P 1200 5800
 F 0 "J38" V 1400 5800 50  0000 R CNN
 F 1 "Screw_Terminal_01x06" V 1300 6150 50  0000 R CNN
-F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-108_1x08_P5.00mm_45Degree" H 1200 5800 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree" H 1200 5800 50  0001 C CNN
 F 3 "~" H 1200 5800 50  0001 C CNN
 	1    1200 5800
 	0    -1   -1   0   
@@ -128,7 +128,7 @@ U 1 1 624A59DF
 P 2250 5800
 F 0 "J39" V 2450 5800 50  0000 R CNN
 F 1 "Screw_Terminal_01x06" V 2350 6150 50  0000 R CNN
-F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-108_1x08_P5.00mm_45Degree" H 2250 5800 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree" H 2250 5800 50  0001 C CNN
 F 3 "~" H 2250 5800 50  0001 C CNN
 	1    2250 5800
 	0    -1   -1   0   
@@ -139,7 +139,7 @@ U 1 1 624A6273
 P 1200 6550
 F 0 "J42" V 1400 6550 50  0000 R CNN
 F 1 "Screw_Terminal_01x06" V 1300 6900 50  0000 R CNN
-F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-108_1x08_P5.00mm_45Degree" H 1200 6550 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree" H 1200 6550 50  0001 C CNN
 F 3 "~" H 1200 6550 50  0001 C CNN
 	1    1200 6550
 	0    -1   -1   0   
@@ -196,7 +196,7 @@ U 1 1 624F0C19
 P 2250 6550
 F 0 "J43" V 2450 6550 50  0000 R CNN
 F 1 "Screw_Terminal_01x06" V 2350 6900 50  0000 R CNN
-F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-108_1x08_P5.00mm_45Degree" H 2250 6550 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree" H 2250 6550 50  0001 C CNN
 F 3 "~" H 2250 6550 50  0001 C CNN
 	1    2250 6550
 	0    -1   -1   0   
@@ -700,28 +700,6 @@ F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 9950 6150 50  0001 
 	1    9950 6150
 	0    -1   1    0   
 $EndComp
-$Comp
-L Graphic:SYM_Hot_Small #SYM1
-U 1 1 62592F2B
-P 6600 950
-F 0 "#SYM1" H 6600 1090 50  0001 C CNN
-F 1 "SYM_Hot_Small" H 6600 825 50  0001 C CNN
-F 2 "" H 6600 775 50  0001 C CNN
-F 3 "~" H 6630 750 50  0001 C CNN
-	1    6600 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:Heatsink_Pad HS1
-U 1 1 62592F31
-P 6600 1150
-F 0 "HS1" H 6250 1250 50  0000 L CNN
-F 1 "Heatsink" H 6150 1150 50  0000 L CNN
-F 2 "Heatsink:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm" H 6612 1100 50  0001 C CNN
-F 3 "~" H 6612 1100 50  0001 C CNN
-	1    6600 1150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10050 5650 10050 5750
 Connection ~ 10350 5750
@@ -817,17 +795,6 @@ Wire Wire Line
 	8250 3450 8250 3550
 Wire Wire Line
 	8250 3550 8500 3550
-$Comp
-L power:GNDREF #PWR06
-U 1 1 627177F1
-P 6600 1250
-F 0 "#PWR06" H 6600 1000 50  0001 C CNN
-F 1 "GNDREF" H 6605 1077 50  0000 C CNN
-F 2 "" H 6600 1250 50  0001 C CNN
-F 3 "" H 6600 1250 50  0001 C CNN
-	1    6600 1250
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J29
 U 1 1 628AFDAC
@@ -2107,14 +2074,6 @@ Wire Notes Line
 	6050 2200 6050 550 
 Wire Notes Line
 	6050 550  4950 550 
-Wire Notes Line
-	6100 550  6100 2200
-Wire Notes Line
-	6100 2200 6900 2200
-Wire Notes Line
-	6900 2200 6900 550 
-Wire Notes Line
-	6900 550  6100 550 
 Text Notes 3850 2150 0    30   ~ 0
 Connect a swst switch.\nThe switch will short the PS_ON connector \nwith the Ground and start the power supply.\n\nWhen using a switch with LED lighting then\nuse a one of the power rails to power the\nled seperately and put a pull-up resistor\ninto your led circuit.
 Text Notes 5000 1900 0    30   ~ 0
@@ -2134,10 +2093,6 @@ Text Notes 3850 650  0    50   ~ 0
 Power On/Off Connection
 Text Notes 5150 650  0    50   ~ 0
 Standby Indicator
-Text Notes 6150 1850 0    30   ~ 0
-The heatsink will be attached\nto the power mosfets.
-Text Notes 6200 650  0    50   ~ 0
-Mosfet Cooling
 Wire Wire Line
 	2100 4900 2100 4800
 Connection ~ 2100 4900
