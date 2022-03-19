@@ -48,7 +48,7 @@ P 2950 1600
 AR Path="/62088F4B" Ref="J10"  Part="1" 
 AR Path="/5E13FF9B/62088F4B" Ref="J?"  Part="1" 
 F 0 "J10" H 3000 1200 50  0000 C CNN
-F 1 "ATX12V1 8 Pin" H 3000 1300 50  0000 C CNN
+F 1 "ATX 12V1 Input" H 3000 1300 50  0001 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 2950 1600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2950 1600 50  0001 C CNN
 F 4 "WM3811-ND " H 3050 1850 50  0001 C CNN "Digi-Key"
@@ -116,7 +116,7 @@ L Connector:Screw_Terminal_01x06 J38
 U 1 1 624A2BA8
 P 1200 5800
 F 0 "J38" V 1400 5800 50  0000 R CNN
-F 1 "Screw_Terminal_01x06" V 1300 6150 50  0000 R CNN
+F 1 "Terminal: +12V2 Input" V 1300 6150 50  0000 R CNN
 F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree" H 1200 5800 50  0001 C CNN
 F 3 "~" H 1200 5800 50  0001 C CNN
 	1    1200 5800
@@ -127,7 +127,7 @@ L Connector:Screw_Terminal_01x06 J39
 U 1 1 624A59DF
 P 2250 5800
 F 0 "J39" V 2450 5800 50  0000 R CNN
-F 1 "Screw_Terminal_01x06" V 2350 6150 50  0000 R CNN
+F 1 "Terminal: +12V3 Input" V 2350 6150 50  0000 R CNN
 F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree" H 2250 5800 50  0001 C CNN
 F 3 "~" H 2250 5800 50  0001 C CNN
 	1    2250 5800
@@ -138,7 +138,7 @@ L Connector:Screw_Terminal_01x06 J42
 U 1 1 624A6273
 P 1200 6550
 F 0 "J42" V 1400 6550 50  0000 R CNN
-F 1 "Screw_Terminal_01x06" V 1300 6900 50  0000 R CNN
+F 1 "Terminal: +5V Input" V 1300 6900 50  0000 R CNN
 F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree" H 1200 6550 50  0001 C CNN
 F 3 "~" H 1200 6550 50  0001 C CNN
 	1    1200 6550
@@ -195,7 +195,7 @@ L Connector:Screw_Terminal_01x06 J43
 U 1 1 624F0C19
 P 2250 6550
 F 0 "J43" V 2450 6550 50  0000 R CNN
-F 1 "Screw_Terminal_01x06" V 2350 6900 50  0000 R CNN
+F 1 "Terminal: +3.3V Input" V 2350 6900 50  0000 R CNN
 F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree" H 2250 6550 50  0001 C CNN
 F 3 "~" H 2250 6550 50  0001 C CNN
 	1    2250 6550
@@ -219,7 +219,7 @@ L Connector:Screw_Terminal_01x12 J44
 U 1 1 624F5E06
 P 1750 7300
 F 0 "J44" V 1967 7246 50  0000 C CNN
-F 1 "Screw_Terminal_01x12" V 1876 7246 50  0000 C CNN
+F 1 "Terminal: Ground" V 1876 7246 50  0000 C CNN
 F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-112_1x12_P5.00mm_45Degree" H 1750 7300 50  0001 C CNN
 F 3 "~" H 1750 7300 50  0001 C CNN
 	1    1750 7300
@@ -280,8 +280,8 @@ $Comp
 L Connector_Generic:Conn_02x02_Top_Bottom J4
 U 1 1 620C0620
 P 2950 950
-F 0 "J4" H 3000 625 50  0000 C CNN
-F 1 "ATX12V1" H 3000 716 50  0000 C CNN
+F 0 "J4" H 3000 750 50  0000 C CNN
+F 1 "ATX 12V1 Input" H 3000 716 50  0001 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 2950 950 50  0001 C CNN
 F 3 "~" H 2950 950 50  0001 C CNN
 	1    2950 950 
@@ -342,11 +342,11 @@ U 1 1 623260A0
 P 2300 4700
 AR Path="/623260A0" Ref="J26"  Part="1" 
 AR Path="/5E13FF9B/623260A0" Ref="J?"  Part="1" 
-F 0 "J26" H 2350 4200 50  0000 C CNN
-F 1 "Molex: 0039281243" V 2350 4650 39  0000 C CNN
+F 0 "J26" H 2350 4300 50  0000 C CNN
+F 1 "Molex: ATX 12V3 Input" V 2350 4650 39  0001 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 2300 4700 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2300 4700 50  0001 C CNN
-F 4 "WM3811-ND " H 2400 4300 50  0000 C CNN "Digi-Key"
+F 4 "WM3811-ND " H 2400 4300 50  0001 C CNN "Digi-Key"
 	1    2300 4700
 	1    0    0    1   
 $EndComp
@@ -357,7 +357,7 @@ P 1150 4400
 AR Path="/621ECDC3" Ref="J23"  Part="1" 
 AR Path="/5E13FF9B/621ECDC3" Ref="J?"  Part="1" 
 F 0 "J23" H 1200 4200 50  0000 C CNN
-F 1 "Molex: 0039281243" V 1200 4350 39  0001 C CNN
+F 1 "Molex: ATX 12V3 Input" V 1200 4350 39  0001 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 1150 4400 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 4400 50  0001 C CNN
 F 4 "WM3811-ND " H 1200 4150 50  0001 C CNN "Digi-Key"
@@ -403,7 +403,7 @@ P 1150 4950
 AR Path="/621ECDE7" Ref="J27"  Part="1" 
 AR Path="/5E13FF9B/621ECDE7" Ref="J?"  Part="1" 
 F 0 "J27" H 1200 4750 50  0000 C CNN
-F 1 "Molex: 0039281243" V 1200 4900 39  0001 C CNN
+F 1 "Molex: ATX 12V3 Input" V 1200 4900 39  0001 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 1150 4950 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 4950 50  0001 C CNN
 F 4 "WM3811-ND " H 1200 5250 50  0001 C CNN "Digi-Key"
@@ -501,7 +501,7 @@ $EndComp
 Wire Wire Line
 	9550 3250 9550 3650
 Text GLabel 9500 3250 0    50   Input ~ 0
-+5VF
++F5V
 Wire Wire Line
 	9950 3650 9950 3950
 Wire Wire Line
@@ -684,7 +684,7 @@ $EndComp
 Wire Wire Line
 	9550 5250 9550 5650
 Text GLabel 9500 5250 0    50   Input ~ 0
-+5VF
++F5V
 Wire Wire Line
 	9950 5650 9950 5950
 Wire Wire Line
@@ -1156,7 +1156,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 5650 6000 5950
 Text GLabel 5550 5250 0    50   Input ~ 0
-+5VF
++F5V
 Wire Wire Line
 	5600 5250 5600 5650
 $Comp
@@ -1415,7 +1415,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3650 6000 3950
 Text GLabel 5550 3250 0    50   Input ~ 0
-+5VF
++F5V
 Wire Wire Line
 	5600 3250 5600 3650
 $Comp
@@ -1699,7 +1699,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 1650 9950 1950
 Text GLabel 9500 1250 0    50   Input ~ 0
-+5VF
++F5V
 Wire Wire Line
 	9550 1250 9550 1650
 Wire Wire Line
@@ -2248,7 +2248,7 @@ P 1150 3600
 AR Path="/62196D36" Ref="J14"  Part="1" 
 AR Path="/5E13FF9B/62196D36" Ref="J?"  Part="1" 
 F 0 "J14" H 1200 3400 50  0000 C CNN
-F 1 "Molex: 0039281243" V 1200 3550 39  0001 C CNN
+F 1 "Molex: ATX 12V2 Input" V 1200 3550 39  0001 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 1150 3600 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 3600 50  0001 C CNN
 F 4 "WM3811-ND " H 1200 3900 50  0001 C CNN "Digi-Key"
@@ -2261,11 +2261,11 @@ U 1 1 6241F25C
 P 2350 3350
 AR Path="/6241F25C" Ref="J13"  Part="1" 
 AR Path="/5E13FF9B/6241F25C" Ref="J?"  Part="1" 
-F 0 "J13" H 2400 2850 50  0000 C CNN
-F 1 "12V2" V 2400 3300 39  0000 C CNN
+F 0 "J13" H 2400 2950 50  0000 C CNN
+F 1 "Molex: ATX 12V2 Input" V 2400 3300 39  0001 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 2350 3350 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 2350 3350 50  0001 C CNN
-F 4 "WM3811-ND " H 2450 2950 50  0000 C CNN "Digi-Key"
+F 4 "WM3811-ND " H 2450 2950 50  0001 C CNN "Digi-Key"
 	1    2350 3350
 	1    0    0    1   
 $EndComp
@@ -2315,7 +2315,7 @@ P 1150 3050
 AR Path="/61DC7D9B" Ref="J12"  Part="1" 
 AR Path="/5E13FF9B/61DC7D9B" Ref="J?"  Part="1" 
 F 0 "J12" H 1200 2850 50  0000 C CNN
-F 1 "Molex: 0039281243" V 1200 3000 39  0001 C CNN
+F 1 "Molex: ATX 12V2 Input" V 1200 3000 39  0001 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 1150 3050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281243_sd.pdf" H 1150 3050 50  0001 C CNN
 F 4 "WM3811-ND " H 1200 2800 50  0001 C CNN "Digi-Key"
