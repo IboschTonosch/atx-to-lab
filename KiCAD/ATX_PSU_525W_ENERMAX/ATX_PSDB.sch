@@ -959,285 +959,6 @@ F 6 "8020.5078 / 0031.8002 " V 7750 4850 31  0001 C CNN "OEM_Nr"
 $EndComp
 Wire Wire Line
 	7850 4850 7950 4850
-Connection ~ 5150 4850
-Connection ~ 4900 4850
-Wire Wire Line
-	4900 4850 5150 4850
-Wire Wire Line
-	5150 4950 5150 4850
-Wire Wire Line
-	5150 4850 5800 4850
-Wire Wire Line
-	3900 4850 4000 4850
-Wire Wire Line
-	4000 5550 4250 5550
-Wire Wire Line
-	4000 5450 4000 5550
-$Comp
-L Device:R R9
-U 1 1 623F5EFB
-P 4000 5000
-F 0 "R9" H 4050 5000 50  0000 L CNN
-F 1 "300" V 4000 4950 50  0000 L CNN
-F 2 "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder" V 3930 5000 50  0001 C CNN
-F 3 "~" H 4000 5000 50  0001 C CNN
-	1    4000 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 5550 4700 5450
-Wire Wire Line
-	4900 5550 4700 5550
-Wire Wire Line
-	4900 5150 4900 5550
-$Comp
-L Connector_Generic:Conn_01x03 J30
-U 1 1 62592EE8
-P 4600 5250
-F 0 "J30" V 4800 5200 50  0000 L CNN
-F 1 "Potti" V 4700 5150 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 4600 5250 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 4600 5250 50  0001 C CNN
-	1    4600 5250
-	0    1    -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J28
-U 1 1 62592EE2
-P 5350 4950
-F 0 "J28" H 5450 5000 50  0000 L CNN
-F 1 "Fan1" H 5400 4900 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 5350 4950 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 5350 4950 50  0001 C CNN
-	1    5350 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J34
-U 1 1 62592EDC
-P 6700 5450
-F 0 "J34" V 6800 5350 50  0000 L CNN
-F 1 "Volt Sens" V 6900 5200 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 6700 5450 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 6700 5450 50  0001 C CNN
-	1    6700 5450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Zener_ALT DZ4
-U 1 1 62592ED6
-P 4250 5000
-F 0 "DZ4" V 4250 5050 50  0000 L CNN
-F 1 "D_Zener_ALT" V 4295 5079 50  0001 L CNN
-F 2 "Diode_SMD:D_SMC_Handsoldering" H 4250 5000 50  0001 C CNN
-F 3 "~" H 4250 5000 50  0001 C CNN
-	1    4250 5000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4250 5150 4250 5550
-Connection ~ 4250 4850
-Wire Wire Line
-	4250 4850 4900 4850
-Wire Wire Line
-	4000 4850 4250 4850
-$Comp
-L Device:R R?
-U 1 1 62592ECC
-P 4900 5000
-AR Path="/5E13FF9B/62592ECC" Ref="R?"  Part="1" 
-AR Path="/5E06D8A7/62592ECC" Ref="R?"  Part="1" 
-AR Path="/62592ECC" Ref="R10"  Part="1" 
-F 0 "R10" H 4700 5000 50  0000 L CNN
-F 1 "1k" V 4900 4950 50  0000 L CNN
-F 2 "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder" V 4830 5000 50  0001 C CNN
-F 3 "~" H 4900 5000 50  0001 C CNN
-	1    4900 5000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4500 5550 4500 5450
-Wire Wire Line
-	4250 5550 4500 5550
-Wire Wire Line
-	4250 5550 4250 5900
-Connection ~ 4250 5550
-Wire Wire Line
-	4600 5600 4600 5450
-Connection ~ 4000 4850
-Connection ~ 6700 4850
-Wire Wire Line
-	7050 4850 6700 4850
-Wire Wire Line
-	6700 4850 6200 4850
-$Comp
-L Connector:Screw_Terminal_01x02 J35
-U 1 1 62592EBA
-P 7050 5450
-F 0 "J35" V 7150 5350 50  0000 L CNN
-F 1 "5V Out" V 7250 5250 50  0000 L CNN
-F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 7050 5450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/2106062140_DEGSON-DG129-5-08-02P-14-00A-H_C2760670.pdf" H 7050 5450 50  0001 C CNN
-	1    7050 5450
-	0    1    1    0   
-$EndComp
-Text GLabel 6950 5250 1    50   Output ~ 0
-5V-
-Wire Wire Line
-	7050 4850 7050 5250
-Text GLabel 4900 5900 2    50   Input ~ 0
-5V-
-Wire Wire Line
-	6700 4850 6700 5250
-$Comp
-L Sensor_Current:ACS712xLCTR-20A U4
-U 1 1 62592EAD
-P 6000 5250
-F 0 "U4" V 5400 5250 50  0000 C CNN
-F 1 "ACS712xLCTR-20A" V 5500 5250 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6100 4900 50  0001 L CIN
-F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 6000 5250 50  0001 C CNN
-	1    6000 5250
-	0    -1   1    0   
-$EndComp
-Text GLabel 6600 5250 1    50   Output ~ 0
-5V-
-$Comp
-L Device:C C7
-U 1 1 62592EA6
-P 6250 5750
-F 0 "C7" V 6100 5750 50  0000 C CNN
-F 1 "1nF" V 6400 5750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6288 5600 50  0001 C CNN
-F 3 "~" H 6250 5750 50  0001 C CNN
-	1    6250 5750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6400 5950 6100 5950
-Connection ~ 6400 5950
-Wire Wire Line
-	6400 5750 6400 5950
-Wire Wire Line
-	6400 5950 6400 6000
-$Comp
-L power:GNDREF #PWR031
-U 1 1 62592E9C
-P 6400 6000
-F 0 "#PWR031" H 6400 5750 50  0001 C CNN
-F 1 "GNDREF" H 6405 5827 50  0000 C CNN
-F 2 "" H 6400 6000 50  0001 C CNN
-F 3 "" H 6400 6000 50  0001 C CNN
-	1    6400 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 5750 6400 5250
-Connection ~ 6400 5750
-Wire Wire Line
-	6100 5650 6100 5750
-Text GLabel 3600 4850 0    50   Input ~ 0
-+5V
-Wire Wire Line
-	4900 5900 4800 5900
-$Comp
-L Connector_Generic:Conn_01x03 J40
-U 1 1 62592E7F
-P 6000 6150
-F 0 "J40" V 6100 6100 50  0000 L CNN
-F 1 "Current Sens" V 6200 5900 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6000 6150 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 6000 6150 50  0001 C CNN
-	1    6000 6150
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5900 5650 5900 5950
-Wire Wire Line
-	6000 5650 6000 5950
-Text GLabel 5550 5250 0    50   Input ~ 0
-+F5V
-Wire Wire Line
-	5600 5250 5600 5650
-$Comp
-L Device:C C9
-U 1 1 62592E75
-P 5600 5800
-F 0 "C9" H 5500 5800 50  0000 R CNN
-F 1 "0.1uF" H 5550 5900 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5638 5650 50  0001 C CNN
-F 3 "~" H 5600 5800 50  0001 C CNN
-	1    5600 5800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5600 6000 5600 5950
-Wire Wire Line
-	5550 5250 5600 5250
-Connection ~ 5600 5250
-$Comp
-L power:GNDREF #PWR030
-U 1 1 62592E6C
-P 5600 6000
-F 0 "#PWR030" H 5600 5750 50  0001 C CNN
-F 1 "GNDREF" H 5605 5827 50  0000 C CNN
-F 2 "" H 5600 6000 50  0001 C CNN
-F 3 "" H 5600 6000 50  0001 C CNN
-	1    5600 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 5650 5900 5650
-Connection ~ 5600 5650
-$Comp
-L power:GNDREF #PWR034
-U 1 1 62592E64
-P 4250 6050
-F 0 "#PWR034" H 4250 5800 50  0001 C CNN
-F 1 "GNDREF" H 4255 5877 50  0000 C CNN
-F 2 "" H 4250 6050 50  0001 C CNN
-F 3 "" H 4250 6050 50  0001 C CNN
-	1    4250 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 5900 4250 6050
-Connection ~ 4250 5900
-Wire Wire Line
-	4400 5900 4250 5900
-$Comp
-L Device:Q_NMOS_GDS Q?
-U 1 1 62592E5B
-P 4600 5800
-AR Path="/5E13FF9B/62592E5B" Ref="Q?"  Part="1" 
-AR Path="/62592E5B" Ref="Q4"  Part="1" 
-F 0 "Q4" V 4550 5600 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 4804 5755 50  0001 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4800 5900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/79033/sup10250e.pdf" H 4600 5800 50  0001 C CNN
-F 4 "SUP10250E-GE3-ND " H 4600 5800 50  0001 C CNN "DigiKey_Nr"
-F 5 "Vishay Siliconix" H 4600 5800 50  0001 C CNN "OEM"
-F 6 "SUP10250E-GE3" V 4850 5800 39  0000 C CNN "OEM_Nr"
-	1    4600 5800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Fuse F4
-U 1 1 62592E52
-P 3750 4850
-AR Path="/62592E52" Ref="F4"  Part="1" 
-AR Path="/5E13FF9B/62592E52" Ref="F?"  Part="1" 
-AR Path="/5E06D8A7/62592E52" Ref="F?"  Part="1" 
-F 0 "F4" V 3850 4900 50  0000 R CNN
-F 1 "10A" V 3650 4950 50  0000 R CNN
-F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 3680 4850 50  0001 C CNN
-F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf" H 3750 4850 50  0001 C CNN
-F 4 "486-3322-ND / 486-3643-ND" H 3750 4850 50  0001 C CNN "DigiKey_Nr"
-F 5 "Schurter Inc" H 3750 4850 50  0001 C CNN "OEM"
-F 6 "8020.5078 / 0031.8002 " V 3800 4850 31  0001 C CNN "OEM_Nr"
-	1    3750 4850
-	0    -1   -1   0   
-$EndComp
 Connection ~ 5200 2850
 Wire Wire Line
 	5200 2850 5800 2850
@@ -1350,17 +1071,6 @@ Text GLabel 5100 3900 2    50   Input ~ 0
 12V2-
 Wire Wire Line
 	6700 2850 6700 3250
-$Comp
-L Sensor_Current:ACS712xLCTR-20A U2
-U 1 1 622C19AF
-P 6000 3250
-F 0 "U2" V 5400 3250 50  0000 C CNN
-F 1 "ACS712xLCTR-20A" V 5500 3250 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6100 2900 50  0001 L CIN
-F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 6000 3250 50  0001 C CNN
-	1    6000 3250
-	0    -1   1    0   
-$EndComp
 Text GLabel 6600 3250 1    50   Output ~ 0
 12V2-
 $Comp
@@ -1793,17 +1503,6 @@ F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 4100 3350 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J32
-U 1 1 62E82297
-P 3800 5350
-F 0 "J32" H 3900 5350 50  0000 L CNN
-F 1 "LED Red" H 3700 5450 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3800 5350 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 3800 5350 50  0001 C CNN
-	1    3800 5350
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J33
 U 1 1 62E826F8
 P 7750 5350
@@ -1814,8 +1513,6 @@ F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 7750 5350 50  0001 
 	1    7750 5350
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 5150 4000 5350
 Wire Wire Line
 	7950 5150 7950 5350
 Wire Wire Line
@@ -1988,21 +1685,13 @@ Wire Notes Line
 Wire Notes Line
 	6950 2450 6950 550 
 Wire Notes Line
-	11150 4450 3300 4450
-Wire Notes Line
 	3300 2550 11150 2550
 Wire Notes Line
 	11150 2550 11150 4450
 Wire Notes Line
-	3300 2550 3300 4450
-Wire Notes Line
-	3300 4550 7150 4550
-Wire Notes Line
 	7150 4550 7150 6500
 Wire Notes Line
 	7150 6500 3300 6500
-Wire Notes Line
-	3300 6500 3300 4550
 Wire Notes Line
 	7200 4550 7200 6500
 Wire Notes Line
@@ -2108,39 +1797,6 @@ F 3 "~" H 9550 1800 50  0001 C CNN
 	1    9550 1800
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+5V #PWR0103
-U 1 1 623AE45B
-P 5600 3250
-F 0 "#PWR0103" H 5600 3100 50  0001 C CNN
-F 1 "+5V" H 5600 3400 50  0000 C CNN
-F 2 "" H 5600 3250 50  0001 C CNN
-F 3 "" H 5600 3250 50  0001 C CNN
-	1    5600 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0104
-U 1 1 623AEA93
-P 9550 5250
-F 0 "#PWR0104" H 9550 5100 50  0001 C CNN
-F 1 "+5V" H 9550 5400 50  0000 C CNN
-F 2 "" H 9550 5250 50  0001 C CNN
-F 3 "" H 9550 5250 50  0001 C CNN
-	1    9550 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0105
-U 1 1 623AF328
-P 5600 5250
-F 0 "#PWR0105" H 5600 5100 50  0001 C CNN
-F 1 "+5V" H 5600 5400 50  0000 C CNN
-F 2 "" H 5600 5250 50  0001 C CNN
-F 3 "" H 5600 5250 50  0001 C CNN
-	1    5600 5250
-	1    0    0    -1  
-$EndComp
 Text GLabel 1850 1800 2    50   Input ~ 0
 -12V
 $Comp
@@ -2171,8 +1827,6 @@ Connection ~ 10350 1950
 Text GLabel 1350 1200 0    50   Input ~ 0
 PWR_OK
 NoConn ~ 1350 1200
-Wire Notes Line
-	3150 4000 3150 5350
 Wire Notes Line
 	750  5350 750  4000
 Wire Notes Line
@@ -2394,17 +2048,6 @@ F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0105
-U 1 1 62683140
-P 9550 3250
-F 0 "#FLG0105" H 9550 3325 50  0001 C CNN
-F 1 "PWR_FLAG" H 9450 3400 50  0000 C CNN
-F 2 "" H 9550 3250 50  0001 C CNN
-F 3 "~" H 9550 3250 50  0001 C CNN
-	1    9550 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0106
 U 1 1 62684353
 P 8200 4850
@@ -2428,8 +2071,16 @@ F 3 "~" H 2450 2250 50  0001 C CNN
 	1    2450 2250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4000 4850 1    50   Output ~ 0
-+F5V
+Wire Notes Line
+	3150 4000 3150 5350
+Wire Notes Line
+	3300 6500 3300 4550
+Wire Notes Line
+	3300 4550 7150 4550
+Wire Notes Line
+	3300 2550 3300 4450
+Wire Notes Line
+	11150 4450 3300 4450
 $Comp
 L power:GNDREF #PWR028
 U 1 1 62592F9F
@@ -2441,4 +2092,322 @@ F 3 "" H 5150 5050 50  0001 C CNN
 	1    5150 5050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4150 5150 4150 5350
+$Comp
+L Connector_Generic:Conn_01x02 J32
+U 1 1 62E82297
+P 3950 5350
+F 0 "J32" H 4050 5350 50  0000 L CNN
+F 1 "LED Red" H 3850 5450 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3950 5350 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 3950 5350 50  0001 C CNN
+	1    3950 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 62592E5B
+P 4600 5800
+AR Path="/5E13FF9B/62592E5B" Ref="Q?"  Part="1" 
+AR Path="/62592E5B" Ref="Q4"  Part="1" 
+F 0 "Q4" V 4550 5600 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 4804 5755 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4800 5900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/79033/sup10250e.pdf" H 4600 5800 50  0001 C CNN
+F 4 "SUP10250E-GE3-ND " H 4600 5800 50  0001 C CNN "DigiKey_Nr"
+F 5 "Vishay Siliconix" H 4600 5800 50  0001 C CNN "OEM"
+F 6 "SUP10250E-GE3" V 4850 5850 39  0000 C CNN "OEM_Nr"
+	1    4600 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 5900 4350 5900
+Connection ~ 4350 5900
+Wire Wire Line
+	4350 5900 4350 6050
+$Comp
+L power:GNDREF #PWR034
+U 1 1 62592E64
+P 4350 6050
+F 0 "#PWR034" H 4350 5800 50  0001 C CNN
+F 1 "GNDREF" H 4355 5877 50  0000 C CNN
+F 2 "" H 4350 6050 50  0001 C CNN
+F 3 "" H 4350 6050 50  0001 C CNN
+	1    4350 6050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 5650
+Wire Wire Line
+	5600 5650 5900 5650
+$Comp
+L power:GNDREF #PWR030
+U 1 1 62592E6C
+P 5600 6000
+F 0 "#PWR030" H 5600 5750 50  0001 C CNN
+F 1 "GNDREF" H 5605 5827 50  0000 C CNN
+F 2 "" H 5600 6000 50  0001 C CNN
+F 3 "" H 5600 6000 50  0001 C CNN
+	1    5600 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 5250
+Wire Wire Line
+	5550 5250 5600 5250
+Wire Wire Line
+	5600 6000 5600 5950
+$Comp
+L Device:C C9
+U 1 1 62592E75
+P 5600 5800
+F 0 "C9" H 5500 5800 50  0000 R CNN
+F 1 "0.1uF" H 5550 5900 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5638 5650 50  0001 C CNN
+F 3 "~" H 5600 5800 50  0001 C CNN
+	1    5600 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 5250 5600 5650
+Text GLabel 5550 5250 0    50   Input ~ 0
++F5V
+Wire Wire Line
+	6000 5650 6000 5950
+Wire Wire Line
+	5900 5650 5900 5950
+$Comp
+L Connector_Generic:Conn_01x03 J40
+U 1 1 62592E7F
+P 6000 6150
+F 0 "J40" V 6100 6100 50  0000 L CNN
+F 1 "Current Sens" V 6200 5900 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6000 6150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 6000 6150 50  0001 C CNN
+	1    6000 6150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4900 5900 4800 5900
+Wire Wire Line
+	6100 5650 6100 5750
+Connection ~ 6400 5750
+Wire Wire Line
+	6400 5750 6400 5250
+$Comp
+L power:GNDREF #PWR031
+U 1 1 62592E9C
+P 6400 6000
+F 0 "#PWR031" H 6400 5750 50  0001 C CNN
+F 1 "GNDREF" H 6405 5827 50  0000 C CNN
+F 2 "" H 6400 6000 50  0001 C CNN
+F 3 "" H 6400 6000 50  0001 C CNN
+	1    6400 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5950 6400 6000
+Wire Wire Line
+	6400 5750 6400 5950
+Connection ~ 6400 5950
+Wire Wire Line
+	6400 5950 6100 5950
+$Comp
+L Device:C C7
+U 1 1 62592EA6
+P 6250 5750
+F 0 "C7" V 6100 5750 50  0000 C CNN
+F 1 "1nF" V 6400 5750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6288 5600 50  0001 C CNN
+F 3 "~" H 6250 5750 50  0001 C CNN
+	1    6250 5750
+	0    1    1    0   
+$EndComp
+Text GLabel 6600 5250 1    50   Output ~ 0
+5V-
+$Comp
+L Sensor_Current:ACS712xLCTR-20A U4
+U 1 1 62592EAD
+P 6000 5250
+F 0 "U4" V 5400 5250 50  0000 C CNN
+F 1 "ACS712xLCTR-20A" V 5500 5250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6100 4900 50  0001 L CIN
+F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 6000 5250 50  0001 C CNN
+	1    6000 5250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6700 4850 6700 5250
+Text GLabel 4900 5900 2    50   Input ~ 0
+5V-
+Wire Wire Line
+	7050 4850 7050 5250
+Text GLabel 6950 5250 1    50   Output ~ 0
+5V-
+$Comp
+L Connector:Screw_Terminal_01x02 J35
+U 1 1 62592EBA
+P 7050 5450
+F 0 "J35" V 7150 5350 50  0000 L CNN
+F 1 "5V Out" V 7250 5250 50  0000 L CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree" H 7050 5450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2106062140_DEGSON-DG129-5-08-02P-14-00A-H_C2760670.pdf" H 7050 5450 50  0001 C CNN
+	1    7050 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4850 6200 4850
+Wire Wire Line
+	7050 4850 6700 4850
+Connection ~ 6700 4850
+Wire Wire Line
+	4600 5600 4600 5450
+Connection ~ 4350 5550
+Wire Wire Line
+	4350 5550 4350 5900
+Wire Wire Line
+	4350 5550 4500 5550
+Wire Wire Line
+	4500 5550 4500 5450
+$Comp
+L Device:R R?
+U 1 1 62592ECC
+P 4900 5000
+AR Path="/5E13FF9B/62592ECC" Ref="R?"  Part="1" 
+AR Path="/5E06D8A7/62592ECC" Ref="R?"  Part="1" 
+AR Path="/62592ECC" Ref="R10"  Part="1" 
+F 0 "R10" H 4700 5000 50  0000 L CNN
+F 1 "1k" V 4900 4950 50  0000 L CNN
+F 2 "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder" V 4830 5000 50  0001 C CNN
+F 3 "~" H 4900 5000 50  0001 C CNN
+	1    4900 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 4850 4900 4850
+Wire Wire Line
+	4350 5150 4350 5550
+$Comp
+L Device:D_Zener_ALT DZ4
+U 1 1 62592ED6
+P 4350 5000
+F 0 "DZ4" V 4350 5050 50  0000 L CNN
+F 1 "D_Zener_ALT" V 4395 5079 50  0001 L CNN
+F 2 "Diode_SMD:D_SMC_Handsoldering" H 4350 5000 50  0001 C CNN
+F 3 "~" H 4350 5000 50  0001 C CNN
+	1    4350 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J34
+U 1 1 62592EDC
+P 6700 5450
+F 0 "J34" V 6800 5350 50  0000 L CNN
+F 1 "Volt Sens" V 6900 5200 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 6700 5450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 6700 5450 50  0001 C CNN
+	1    6700 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J28
+U 1 1 62592EE2
+P 5350 4950
+F 0 "J28" H 5450 5000 50  0000 L CNN
+F 1 "Fan1" H 5400 4900 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 5350 4950 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 5350 4950 50  0001 C CNN
+	1    5350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J30
+U 1 1 62592EE8
+P 4600 5250
+F 0 "J30" V 4800 5200 50  0000 L CNN
+F 1 "Potti" V 4700 5150 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 4600 5250 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-171856-0001.pdf" H 4600 5250 50  0001 C CNN
+	1    4600 5250
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4900 5150 4900 5550
+Wire Wire Line
+	4900 5550 4700 5550
+Wire Wire Line
+	4700 5550 4700 5450
+$Comp
+L Device:R R9
+U 1 1 623F5EFB
+P 4150 5000
+F 0 "R9" H 4000 5000 50  0000 L CNN
+F 1 "300" V 4150 4950 50  0000 L CNN
+F 2 "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder" V 4080 5000 50  0001 C CNN
+F 3 "~" H 4150 5000 50  0001 C CNN
+	1    4150 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5450 4150 5550
+Wire Wire Line
+	5150 4850 5800 4850
+Wire Wire Line
+	5150 4950 5150 4850
+Wire Wire Line
+	4900 4850 5150 4850
+Connection ~ 4900 4850
+Connection ~ 5150 4850
+Text GLabel 4100 4850 0    50   Input ~ 0
++F5V
+$Comp
+L Sensor_Current:ACS712xLCTR-20A U2
+U 1 1 622C19AF
+P 6000 3250
+F 0 "U2" V 5400 3250 50  0000 C CNN
+F 1 "ACS712xLCTR-20A" V 5500 3250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6100 2900 50  0001 L CIN
+F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 6000 3250 50  0001 C CNN
+	1    6000 3250
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 62683140
+P 9550 3250
+F 0 "#FLG0105" H 9550 3325 50  0001 C CNN
+F 1 "PWR_FLAG" H 9450 3400 50  0000 C CNN
+F 2 "" H 9550 3250 50  0001 C CNN
+F 3 "~" H 9550 3250 50  0001 C CNN
+	1    9550 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4850 4100 4850
+$Comp
+L Device:Fuse F4
+U 1 1 62592E52
+P 3700 4700
+AR Path="/62592E52" Ref="F4"  Part="1" 
+AR Path="/5E13FF9B/62592E52" Ref="F?"  Part="1" 
+AR Path="/5E06D8A7/62592E52" Ref="F?"  Part="1" 
+F 0 "F4" V 3800 4750 50  0000 R CNN
+F 1 "10A" V 3600 4800 50  0000 R CNN
+F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 3630 4700 50  0001 C CNN
+F 3 "https://us.schurter.com/en/datasheet/typ_SHF_6.3x32.pdf" H 3700 4700 50  0001 C CNN
+F 4 "486-3322-ND / 486-3643-ND" H 3700 4700 50  0001 C CNN "DigiKey_Nr"
+F 5 "Schurter Inc" H 3700 4700 50  0001 C CNN "OEM"
+F 6 "8020.5078 / 0031.8002 " V 3750 4700 31  0001 C CNN "OEM_Nr"
+	1    3700 4700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3550 4700 0    50   Input ~ 0
++5V
+Text GLabel 3850 4700 2    50   Output ~ 0
++F5V
+Wire Wire Line
+	4150 4850 4350 4850
+Connection ~ 4150 4850
+Connection ~ 4350 4850
+Wire Wire Line
+	4150 5550 4350 5550
 $EndSCHEMATC
