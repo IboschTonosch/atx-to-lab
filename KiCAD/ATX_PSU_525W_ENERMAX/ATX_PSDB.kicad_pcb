@@ -228,7 +228,7 @@
     (fp_text reference G*** (at -5.08 0 90) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value IboschTonosch (at -0.508 7.366 90) (layer F.SilkS)
+    (fp_text value IboshTonosh (at -0.508 7.366 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_poly (pts (xy -0.26257 4.271913) (xy 0.214216 4.377223) (xy 0.715306 4.533624) (xy 1.199899 4.725474)
