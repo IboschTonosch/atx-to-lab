@@ -11,3 +11,9 @@ Optional tools
 > What is this all about.
 
 Complete design to turn an PC atx power supply into a constant current lab power supply
+
+![PCB_TOP_VIEW](./pcb/images/pcb_top_view_v1.0.png)
+
+![PCB_SIDE_VIEW](./pcb/images/pcb_v1.0.png)
+
+![Schematic](./pcb/images/schematic_v1.0.png)
